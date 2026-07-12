@@ -23,6 +23,8 @@ npm run fetch:videos
 
 正式部署到 GitHub 後，在儲存庫的 `Settings → Secrets and variables → Actions` 新增 `YOUTUBE_API_KEY`。內建 GitHub Actions 會在台北時間每日 02:20 更新資料，也可手動執行。
 
+更新採增量快取：影片基本資料只在首次發現時抓取；觀看數依影片新舊分級更新，30 天內每日、31–90 天每週、90 天以上每月，避免每天重抓完整頻道。
+
 ## 建置
 
 ```bash
