@@ -71,17 +71,36 @@ function refreshInterval(video) {
   return 30 * DAY;
 }
 
-async function refreshStatistics(videos, ids, fetchedAt) {
-  const statistics = new Map();
-  const targets = videos.filter((video) => ids.has(video.id));
+function parseDuration(value) {
+  const match = value?.match(/^P(?:(\d+)D)?T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!match) return null;
+  return Number(match[1] ?? 0) * 86400
+    + Number(match[2] ?? 0) * 3600
+    + Number(match[3] ?? 0) * 60
+    + Number(match[4] ?? 0);
+}
+
+async function refreshDetails(videos, statsIds, durationIds, fetchedAt) {
+  const details = new Map();
+  const targetIds = new Set([...statsIds, ...durationIds]);
+  const targets = videos.filter((video) => targetIds.has(video.id));
   for (let i = 0; i < targets.length; i += 50) {
     const batch = targets.slice(i, i + 50).map((video) => video.id).join(',');
-    const page = await youtube('videos', { part: 'statistics', id: batch });
-    page.items?.forEach((item) => statistics.set(item.id, Number(item.statistics.viewCount ?? 0)));
+    const page = await youtube('videos', { part: 'statistics,contentDetails', id: batch });
+    page.items?.forEach((item) => details.set(item.id, {
+      viewCount: Number(item.statistics.viewCount ?? 0),
+      durationSeconds: parseDuration(item.contentDetails.duration),
+    }));
   }
-  return videos.map((video) => statistics.has(video.id)
-    ? { ...video, viewCount: statistics.get(video.id), lastStatsFetchedAt: fetchedAt }
-    : video);
+  return videos.map((video) => {
+    const detail = details.get(video.id);
+    if (!detail) return video;
+    return {
+      ...video,
+      ...(statsIds.has(video.id) && { viewCount: detail.viewCount, lastStatsFetchedAt: fetchedAt }),
+      ...(detail.durationSeconds !== null && { durationSeconds: detail.durationSeconds }),
+    };
+  });
 }
 
 const cache = await loadCache();
@@ -105,8 +124,9 @@ const statsIds = new Set(videos
     || !video.lastStatsFetchedAt
     || Date.now() - new Date(video.lastStatsFetchedAt).getTime() >= refreshInterval(video))
   .map((video) => video.id));
-videos = await refreshStatistics(videos, statsIds, now);
+const durationIds = new Set(videos.filter((video) => video.durationSeconds == null).map((video) => video.id));
+videos = await refreshDetails(videos, statsIds, durationIds, now);
 
 await mkdir(new URL('../public/data/', import.meta.url), { recursive: true });
 await writeFile(OUTPUT, `${JSON.stringify({ updatedAt: now, uploadsPlaylistId: playlistId, videos }, null, 2)}\n`);
-console.log(`新增 ${newVideos.length} 部，更新觀看數 ${statsIds.size} 部，沿用快取 ${videos.length - statsIds.size} 部`);
+console.log(`新增 ${newVideos.length} 部，更新觀看數 ${statsIds.size} 部，補齊片長 ${durationIds.size} 部，沿用快取 ${videos.length - statsIds.size} 部`);

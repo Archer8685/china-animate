@@ -136,7 +136,7 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
 @media (max-width: 420px) {
   .brand-mark { width: 40px; height: 40px; }
   .video-row { grid-template-columns: 32px 96px 1fr; gap: 9px; }
-  .meta span:last-child { display: none; }
+  .meta .upload-date { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,6 +1,6 @@
 import React, { useDeferredValue, useEffect, useMemo, useState, useTransition } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, X } from 'lucide-react';
+import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, Timer, X } from 'lucide-react';
 import './styles.css';
 
 const periods = [
@@ -55,6 +55,16 @@ function formatAge(value) {
   if (days < 30) return `${Math.floor(days / 7)} 週前`;
   if (days < 365) return `${Math.floor(days / 30)} 個月前`;
   return `${Math.floor(days / 365)} 年前`;
+}
+
+function formatDuration(value) {
+  if (!Number.isFinite(value)) return null;
+  const hours = Math.floor(value / 3600);
+  const minutes = Math.floor((value % 3600) / 60);
+  const seconds = value % 60;
+  return hours
+    ? `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+    : `${minutes}:${String(seconds).padStart(2, '0')}`;
 }
 
 function App() {
@@ -228,7 +238,8 @@ function App() {
                 <a href={video.url} target="_blank" rel="noreferrer"><h3>{displayTitle(video.title)}</h3></a>
                 <div className="meta">
                   <span title={`${fullNumber.format(video.viewCount)} 次觀看`}><Eye size={16} /> {number.format(video.viewCount)} 次觀看</span>
-                  <span title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>
+                  <span className="upload-date" title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>
+                  {formatDuration(video.durationSeconds) && <span className="duration"><Timer size={15} /> {formatDuration(video.durationSeconds)}</span>}
                 </div>
               </div>
               <div className="video-actions">
