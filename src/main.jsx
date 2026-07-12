@@ -48,6 +48,13 @@ function displayTitle(title) {
   return clean || title;
 }
 
+function videoTags(title) {
+  const hidden = new Set(['#破晓动漫社', '#dawnanimeclub']);
+  return [...new Set(title.match(/#[^#\s]+/g) ?? [])]
+    .filter((tag) => !hidden.has(tag.toLocaleLowerCase()))
+    .slice(0, 4);
+}
+
 function formatAge(value) {
   const days = Math.max(0, Math.floor((Date.now() - new Date(value).getTime()) / 86400000));
   if (days === 0) return '今天上架';
@@ -235,7 +242,12 @@ function App() {
                 <span className="play">▶</span>
               </a>
               <div className="video-info">
-                <a href={video.url} target="_blank" rel="noreferrer"><h3>{displayTitle(video.title)}</h3></a>
+                <button className="title-button" onClick={() => setSelectedVideo(video)} aria-haspopup="dialog"><h3>{displayTitle(video.title)}</h3></button>
+                {videoTags(video.title).length > 0 && (
+                  <div className="video-tags" aria-label="影片標籤">
+                    {videoTags(video.title).map((tag) => <span key={tag}>{tag}</span>)}
+                  </div>
+                )}
                 <div className="meta">
                   <span title={`${fullNumber.format(video.viewCount)} 次觀看`}><Eye size={16} /> {number.format(video.viewCount)} 次觀看</span>
                   <span className="upload-date" title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>

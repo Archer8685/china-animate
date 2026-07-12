@@ -58,7 +58,10 @@ main { width: min(1180px, calc(100% - 64px)); margin: auto; }
 .play { position: absolute; left: 10px; bottom: 10px; display: grid; place-items: center; width: 32px; height: 32px; padding-left: 2px; border-radius: 50%; color: white; background: #171716d9; font-size: 11px; }
 .video-info { min-width: 0; }
 .video-info h3 { margin: 0; font-size: 17px; line-height: 1.55; font-weight: 700; }
-.video-info a:hover h3 { color: var(--blue); }
+.title-button { display: block; width: 100%; padding: 0; border: 0; background: transparent; text-align: left; cursor: pointer; }
+.title-button:hover h3 { color: var(--blue); }
+.video-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 9px; }
+.video-tags span { padding: 2px 7px; color: var(--blue); background: #2f56a60d; border: 1px solid #2f56a626; font-size: 10px; line-height: 1.4; }
 .meta { display: flex; gap: 20px; margin-top: 15px; color: #77736b; font-size: 12px; }
 .meta span { display: inline-flex; align-items: center; gap: 6px; }
 .video-actions { display: flex; align-items: center; gap: 18px; }
@@ -119,6 +122,8 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
   .video-row { grid-template-columns: 42px 112px 1fr; gap: 12px; padding: 16px 0; }
   .rank { font-size: 19px; }
   .video-info h3 { display: block; overflow: visible; font-size: 14px; }
+  .video-tags { gap: 4px; margin-top: 7px; }
+  .video-tags span { padding: 1px 5px; font-size: 9px; }
   .meta { flex-wrap: wrap; gap: 5px 12px; margin-top: 8px; font-size: 11px; }
   .video-actions { grid-column: 3; justify-self: start; margin-top: -7px; }
   .watch { display: none; }
