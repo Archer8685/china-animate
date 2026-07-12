@@ -1,6 +1,6 @@
 import React, { useDeferredValue, useEffect, useMemo, useRef, useState, useTransition } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, Timer, X } from 'lucide-react';
+import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, Search, Timer, X } from 'lucide-react';
 import './styles.css';
 
 const periods = [
@@ -286,7 +286,6 @@ function App() {
                 </div>
               </div>
               <div className="video-actions">
-                <button className="related" onClick={() => setSelectedVideo(video)}><ScanSearch size={16} /> 找相關</button>
                 <a className="watch" href={video.url} target="_blank" rel="noreferrer">觀看影片 <ArrowUpRight size={17} /></a>
               </div>
             </article>
