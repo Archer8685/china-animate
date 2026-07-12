@@ -16,6 +16,7 @@ const PAGE_SIZE = 30;
 const number = new Intl.NumberFormat('zh-TW', { notation: 'compact', maximumFractionDigits: 1 });
 const fullNumber = new Intl.NumberFormat('zh-TW');
 const date = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'short', day: 'numeric' });
+const wordSegmenter = new Intl.Segmenter('zh-Hant', { granularity: 'word' });
 const genericTerms = new Set(['動畫', '動漫', '影片', '完整', '完整版', '官方', '中文', '中字', '高清', '最新', '預告', '精華', '片段']);
 
 function titleTerms(title) {
@@ -48,11 +49,28 @@ function displayTitle(title) {
   return clean || title;
 }
 
-function videoTags(title) {
-  const hidden = new Set(['#破曉動漫社', '#dawnanimeclub']);
-  return [...new Set(title.match(/#[^#\s]+/g) ?? [])]
-    .filter((tag) => !hidden.has(tag.toLocaleLowerCase()))
-    .slice(0, 4);
+function semanticTags(video, index) {
+  const maxFrequency = Math.max(30, index.rows.length * 0.12);
+  const blocked = /新番|上線|漫劇|破曉|合集|一口氣|動漫社|multisub|anime/i;
+  const candidates = [...wordSegmenter.segment(video.displayTitle)]
+    .filter(({ isWordLike, segment }) => isWordLike && segment.length >= 2 && !blocked.test(segment) && !genericTerms.has(segment))
+    .map(({ segment: term }) => {
+      const pairs = term.length === 2
+        ? [term]
+        : Array.from({ length: term.length - 1 }, (_, offset) => term.slice(offset, offset + 2));
+      const frequency = Math.min(...pairs.map((pair) => index.frequency.get(pair) ?? 0));
+      const weight = Math.log((index.rows.length + 1) / (frequency + 1)) + 1;
+      return { term, frequency, relevance: weight * Math.min(term.length, 8) };
+    })
+    .filter(({ frequency }) => frequency > 1 && frequency <= maxFrequency)
+    .sort((a, b) => b.relevance - a.relevance || b.term.length - a.term.length);
+  const selected = [];
+  for (const { term } of candidates) {
+    if (selected.some((item) => item.includes(term) || term.includes(item))) continue;
+    selected.push(term);
+    if (selected.length === 3) break;
+  }
+  return selected;
 }
 
 function formatAge(value) {
@@ -115,7 +133,6 @@ function App() {
         ...video,
         localizedTitle,
         displayTitle: displayTitle(localizedTitle),
-        tags: videoTags(localizedTitle),
         publishedTime: new Date(video.publishedAt).getTime(),
         searchTitle: localizedTitle.toLocaleLowerCase('zh-Hant'),
       };
@@ -185,7 +202,10 @@ function App() {
       .filter((video) => !cutoff || video.publishedTime >= cutoff)
       .filter((video) => !keyword || video.searchTitle.includes(keyword));
   }, [rankedVideos, activePeriod.days, deferredQuery]);
-  const visibleVideos = videos.slice(0, visibleCount);
+  const visibleVideos = useMemo(() => videos.slice(0, visibleCount), [videos, visibleCount]);
+  const homepageTags = useMemo(() => new Map(
+    visibleVideos.map((video) => [video.id, semanticTags(video, relatedIndex)]),
+  ), [visibleVideos, relatedIndex]);
   const filterPending = isPeriodPending || query !== deferredQuery;
 
   useEffect(() => setVisibleCount(PAGE_SIZE), [period, deferredQuery]);
@@ -254,9 +274,9 @@ function App() {
               </a>
               <div className="video-info">
                 <button className="title-button" onClick={() => setSelectedVideo(video)} aria-haspopup="dialog"><h3>{video.displayTitle}</h3></button>
-                {video.tags.length > 0 && (
+                {homepageTags.get(video.id).length > 0 && (
                   <div className="video-tags" aria-label="影片標籤">
-                    {video.tags.map((tag) => <span key={tag}>{tag}</span>)}
+                    {homepageTags.get(video.id).map((tag) => <span key={tag}>{tag}</span>)}
                   </div>
                 )}
                 <div className="meta">
