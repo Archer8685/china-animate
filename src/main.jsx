@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useDeferredValue, useEffect, useMemo, useState, useTransition } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, X } from 'lucide-react';
 import './styles.css';
@@ -9,6 +9,7 @@ const periods = [
   { id: 'month', label: '每月', days: 30 },
   { id: 'quarter', label: '每季', days: 90 },
   { id: 'year', label: '每年', days: 365 },
+  { id: 'all', label: '全部', days: null },
 ];
 const PAGE_SIZE = 30;
 
@@ -34,6 +35,19 @@ function titleTerms(title) {
   return terms;
 }
 
+function displayTitle(title) {
+  let clean = title.trim();
+  const workTitle = clean.match(/《([^》]+)》(.*)/);
+  if (workTitle) clean = `${workTitle[1]} ${workTitle[2]}`;
+  clean = clean
+    .replace(/#[^#\s]+/g, ' ')
+    .replace(/^(?:MULTISUB\s*)?[📢🔥\s]*(?:新番上线|完结合集)[🔥📢\s]*/i, '')
+    .replace(/\s+/g, ' ')
+    .replace(/[丨|]\s*$/, '')
+    .trim();
+  return clean || title;
+}
+
 function formatAge(value) {
   const days = Math.max(0, Math.floor((Date.now() - new Date(value).getTime()) / 86400000));
   if (days === 0) return '今天上架';
@@ -51,6 +65,8 @@ function App() {
   const [error, setError] = useState('');
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [isPeriodPending, startPeriodTransition] = useTransition();
+  const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/videos.json`, { cache: 'no-store' })
@@ -74,8 +90,16 @@ function App() {
     };
   }, [selectedVideo]);
 
+  const rankedVideos = useMemo(() => payload.videos
+    .map((video) => ({
+      ...video,
+      publishedTime: new Date(video.publishedAt).getTime(),
+      searchTitle: video.title.toLocaleLowerCase('zh-Hant'),
+    }))
+    .sort((a, b) => b.viewCount - a.viewCount), [payload.videos]);
+
   const relatedIndex = useMemo(() => {
-    const rows = payload.videos.map((video) => ({ video, terms: titleTerms(video.title) }));
+    const rows = rankedVideos.map((video) => ({ video, terms: titleTerms(video.title) }));
     const frequency = new Map();
     const positions = new Map();
     const byId = new Map();
@@ -88,7 +112,7 @@ function App() {
       });
     });
     return { rows, frequency, positions, byId };
-  }, [payload.videos]);
+  }, [rankedVideos]);
 
   const relatedVideos = useMemo(() => {
     if (!selectedVideo) return [];
@@ -131,16 +155,16 @@ function App() {
 
   const activePeriod = periods.find((item) => item.id === period);
   const videos = useMemo(() => {
-    const cutoff = Date.now() - activePeriod.days * 86400000;
-    const keyword = query.trim().toLocaleLowerCase('zh-Hant');
-    return payload.videos
-      .filter((video) => new Date(video.publishedAt).getTime() >= cutoff)
-      .filter((video) => !keyword || video.title.toLocaleLowerCase('zh-Hant').includes(keyword))
-      .sort((a, b) => b.viewCount - a.viewCount);
-  }, [payload.videos, activePeriod.days, query]);
+    const cutoff = activePeriod.days ? Date.now() - activePeriod.days * 86400000 : null;
+    const keyword = deferredQuery.trim().toLocaleLowerCase('zh-Hant');
+    return rankedVideos
+      .filter((video) => !cutoff || video.publishedTime >= cutoff)
+      .filter((video) => !keyword || video.searchTitle.includes(keyword));
+  }, [rankedVideos, activePeriod.days, deferredQuery]);
   const visibleVideos = videos.slice(0, visibleCount);
+  const filterPending = isPeriodPending || query !== deferredQuery;
 
-  useEffect(() => setVisibleCount(PAGE_SIZE), [period, query]);
+  useEffect(() => setVisibleCount(PAGE_SIZE), [period, deferredQuery]);
 
   return (
     <main>
@@ -155,10 +179,7 @@ function App() {
       </header>
 
       <section className="hero">
-        <div>
-          <p className="eyebrow">YOUTUBE VIEWERS' CHOICE</p>
-          <h1>此刻，大家<br />都在看什麼？</h1>
-        </div>
+        <p className="eyebrow">YOUTUBE VIEWERS' CHOICE</p>
         <div className="hero-note">
           <span className="live-dot" /> 每日更新
           <p>依觀看次數整理頻道熱門作品，<br />快速找到本期最受注目的動畫。</p>
@@ -169,7 +190,7 @@ function App() {
       <section className="controls" aria-label="排行篩選">
         <div className="periods" role="tablist" aria-label="熱門期間">
           {periods.map((item) => (
-            <button key={item.id} role="tab" aria-selected={period === item.id} onClick={() => setPeriod(item.id)}>
+            <button key={item.id} role="tab" aria-selected={period === item.id} onClick={() => startPeriodTransition(() => setPeriod(item.id))}>
               {item.label}
             </button>
           ))}
@@ -187,6 +208,7 @@ function App() {
           <div><span>RANKING</span><h2>{activePeriod.label}熱門影片</h2></div>
           <p>共 {videos.length} 部作品</p>
         </div>
+        {filterPending && <div className="filter-progress" role="status"><span />正在整理排行…</div>}
 
         {loading && <div className="status">正在整理放映清單…</div>}
         {error && <div className="status error">{error}</div>}
@@ -198,12 +220,12 @@ function App() {
           {visibleVideos.map((video, index) => (
             <article className="video-row" key={video.id}>
               <div className="rank" aria-label={`第 ${index + 1} 名`}>{String(index + 1).padStart(2, '0')}</div>
-              <a className="thumb" href={video.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${video.title}`}>
+              <a className="thumb" href={video.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${displayTitle(video.title)}`}>
                 <img src={video.thumbnail} alt="" loading="lazy" />
                 <span className="play">▶</span>
               </a>
               <div className="video-info">
-                <a href={video.url} target="_blank" rel="noreferrer"><h3>{video.title}</h3></a>
+                <a href={video.url} target="_blank" rel="noreferrer"><h3>{displayTitle(video.title)}</h3></a>
                 <div className="meta">
                   <span title={`${fullNumber.format(video.viewCount)} 次觀看`}><Eye size={16} /> {number.format(video.viewCount)} 次觀看</span>
                   <span title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>
@@ -236,8 +258,8 @@ function App() {
 
             <div className="selected-film">
               <img src={selectedVideo.thumbnail} alt="" />
-              <div><small>因為你選了</small><h3>{selectedVideo.title}</h3></div>
-              <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${selectedVideo.title}`}><CirclePlay /></a>
+              <div><small>因為你選了</small><h3>{displayTitle(selectedVideo.title)}</h3></div>
+              <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${displayTitle(selectedVideo.title)}`}><CirclePlay /></a>
             </div>
 
             <div className="match-note">依片名中的作品名、角色與主題詞推薦，已排除集數及常見宣傳詞。</div>
@@ -248,11 +270,11 @@ function App() {
                     <span className="related-rank">{String(index + 1).padStart(2, '0')}</span>
                     <a className="related-thumb" href={video.url} target="_blank" rel="noreferrer"><img src={video.thumbnail} alt="" loading="lazy" /></a>
                     <div>
-                      <a href={video.url} target="_blank" rel="noreferrer"><h3>{video.title}</h3></a>
+                      <a href={video.url} target="_blank" rel="noreferrer"><h3>{displayTitle(video.title)}</h3></a>
                       <p>{reasons.map((reason) => <span key={reason}>{reason}</span>)}</p>
                       <small>{number.format(video.viewCount)} 次觀看</small>
                     </div>
-                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${video.title} 繼續找相關影片`}><RotateCcw size={15} /></button>
+                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${displayTitle(video.title)} 繼續找相關影片`}><RotateCcw size={15} /></button>
                   </article>
                 ))}
               </div>
