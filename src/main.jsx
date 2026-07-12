@@ -212,7 +212,7 @@ function App() {
 
   useEffect(() => {
     const target = loadMoreRef.current;
-    if (!target || visibleCount >= videos.length || !window.matchMedia('(max-width: 760px)').matches) return undefined;
+    if (!target || visibleCount >= videos.length) return undefined;
     const observer = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) return;
       observer.disconnect();
@@ -295,9 +295,6 @@ function App() {
         {visibleCount < videos.length && (
           <div className="load-more-wrap" ref={loadMoreRef}>
             <p>已顯示 {visibleVideos.length}／{videos.length} 部</p>
-            <button className="load-more" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>
-              再載入 {Math.min(PAGE_SIZE, videos.length - visibleCount)} 部
-            </button>
             <div className="auto-load"><span />繼續往下滑，自動載入更多</div>
           </div>
         )}

@@ -70,9 +70,7 @@ main { width: min(1180px, calc(100% - 64px)); margin: auto; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .load-more-wrap { display: flex; flex-direction: column; align-items: center; gap: 13px; padding: 32px 0 0; }
 .load-more-wrap p { margin: 0; color: #77736b; font: 400 10px 'DM Mono', monospace; }
-.load-more { min-width: 210px; padding: 12px 24px; border: 1px solid var(--ink); border-radius: 100px; background: transparent; cursor: pointer; font-size: 13px; font-weight: 700; }
-.load-more:hover { color: white; background: var(--ink); }
-.auto-load { display: none; align-items: center; gap: 8px; color: #77736b; font-size: 11px; }
+.auto-load { display: flex; align-items: center; gap: 8px; color: #77736b; font-size: 11px; }
 .auto-load span { width: 12px; height: 12px; border: 2px solid var(--line); border-top-color: var(--blue); border-radius: 50%; animation: spin .7s linear infinite; }
 footer { display: flex; justify-content: space-between; padding: 28px 0 38px; border-top: 1px solid var(--ink); font: 400 10px 'DM Mono', monospace; color: #77736b; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
@@ -131,8 +129,6 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
   .panel-head { margin-bottom: 20px; }
   .selected-film { grid-template-columns: 96px 1fr auto; gap: 12px; padding: 13px; }
   .related-card { grid-template-columns: 24px 88px 1fr 30px; gap: 9px; }
-  .load-more { display: none; }
-  .auto-load { display: flex; }
   @keyframes sheet-in { from { transform: translateY(35px); opacity: 0; } }
 }
 
