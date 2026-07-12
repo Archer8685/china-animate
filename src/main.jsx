@@ -226,8 +226,8 @@ function App() {
     <main>
       <header className="masthead">
         <a className="brand" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
-          <span className="brand-mark"><span>曙</span></span>
-          <span><strong>曙光動畫社</strong><small>DAWN ANIME CLUB</small></span>
+          <span className="brand-mark"><span>熱</span></span>
+          <span><strong>熱門中國動漫</strong><small>DAWN ANIME CLUB</small></span>
         </a>
         <a className="channel-link" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
           <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
