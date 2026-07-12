@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, CirclePlay, Clock3, Eye, Search } from 'lucide-react';
+import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, X } from 'lucide-react';
 import './styles.css';
 
 const periods = [
@@ -10,10 +10,29 @@ const periods = [
   { id: 'quarter', label: '每季', days: 90 },
   { id: 'year', label: '每年', days: 365 },
 ];
+const PAGE_SIZE = 30;
 
 const number = new Intl.NumberFormat('zh-TW', { notation: 'compact', maximumFractionDigits: 1 });
 const fullNumber = new Intl.NumberFormat('zh-TW');
 const date = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'short', day: 'numeric' });
+const genericTerms = new Set(['動畫', '動漫', '影片', '完整', '完整版', '官方', '中文', '中字', '高清', '最新', '預告', '精華', '片段']);
+
+function titleTerms(title) {
+  const clean = title.normalize('NFKC').toLocaleLowerCase('zh-Hant')
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/第\s*\d+\s*[集話期季部]/g, ' ')
+    .replace(/\b(?:ep(?:isode)?|season|part)\.?\s*\d+\b/gi, ' ')
+    .replace(/\b\d{1,4}\b/g, ' ');
+  const terms = new Set(clean.match(/[a-z][a-z0-9]{1,}/g) ?? []);
+  for (const chunk of clean.match(/[一-龥ぁ-んァ-ヶー]{2,}/g) ?? []) {
+    if (chunk.length <= 12) terms.add(chunk);
+    for (let size = 2; size <= Math.min(3, chunk.length); size += 1) {
+      for (let index = 0; index <= chunk.length - size; index += 1) terms.add(chunk.slice(index, index + size));
+    }
+  }
+  genericTerms.forEach((term) => terms.delete(term));
+  return terms;
+}
 
 function formatAge(value) {
   const days = Math.max(0, Math.floor((Date.now() - new Date(value).getTime()) / 86400000));
@@ -30,6 +49,8 @@ function App() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [selectedVideo, setSelectedVideo] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/videos.json`, { cache: 'no-store' })
@@ -42,6 +63,72 @@ function App() {
       .finally(() => setLoading(false));
   }, []);
 
+  useEffect(() => {
+    if (!selectedVideo) return undefined;
+    const close = (event) => event.key === 'Escape' && setSelectedVideo(null);
+    document.body.classList.add('panel-open');
+    window.addEventListener('keydown', close);
+    return () => {
+      document.body.classList.remove('panel-open');
+      window.removeEventListener('keydown', close);
+    };
+  }, [selectedVideo]);
+
+  const relatedIndex = useMemo(() => {
+    const rows = payload.videos.map((video) => ({ video, terms: titleTerms(video.title) }));
+    const frequency = new Map();
+    const positions = new Map();
+    const byId = new Map();
+    rows.forEach(({ video, terms }, index) => {
+      byId.set(video.id, index);
+      terms.forEach((term) => {
+        frequency.set(term, (frequency.get(term) ?? 0) + 1);
+        if (!positions.has(term)) positions.set(term, []);
+        positions.get(term).push(index);
+      });
+    });
+    return { rows, frequency, positions, byId };
+  }, [payload.videos]);
+
+  const relatedVideos = useMemo(() => {
+    if (!selectedVideo) return [];
+    const sourceIndex = relatedIndex.byId.get(selectedVideo.id);
+    const source = relatedIndex.rows[sourceIndex];
+    if (!source) return [];
+    const maxFrequency = Math.max(30, relatedIndex.rows.length * 0.12);
+    const sourceTerms = [...source.terms].filter((term) => {
+      const count = relatedIndex.frequency.get(term) ?? 0;
+      return count > 1 && count <= maxFrequency;
+    });
+    const sourceWeight = sourceTerms.reduce((sum, term) => {
+      const idf = Math.log((relatedIndex.rows.length + 1) / (relatedIndex.frequency.get(term) + 1)) + 1;
+      return sum + idf;
+    }, 0);
+
+    const candidates = new Map();
+    sourceTerms.forEach((term) => {
+      const weight = Math.log((relatedIndex.rows.length + 1) / (relatedIndex.frequency.get(term) + 1)) + 1;
+      relatedIndex.positions.get(term).forEach((index) => {
+        if (index === sourceIndex) return;
+        if (!candidates.has(index)) candidates.set(index, []);
+        candidates.get(index).push({ term, weight });
+      });
+    });
+
+    return [...candidates.entries()]
+      .map(([index, matches]) => {
+        const score = matches.reduce((sum, match) => sum + match.weight, 0) / Math.max(1, sourceWeight);
+        const reasons = matches.sort((a, b) => b.weight - a.weight || b.term.length - a.term.length)
+          .filter((match, index, list) => !list.slice(0, index).some((item) => item.term.includes(match.term)))
+          .slice(0, 3)
+          .map((match) => match.term);
+        return { video: relatedIndex.rows[index].video, score, reasons };
+      })
+      .filter((item) => item.score >= 0.08 && item.reasons.length)
+      .sort((a, b) => b.score - a.score || b.video.viewCount - a.video.viewCount)
+      .slice(0, 8);
+  }, [relatedIndex, selectedVideo]);
+
   const activePeriod = periods.find((item) => item.id === period);
   const videos = useMemo(() => {
     const cutoff = Date.now() - activePeriod.days * 86400000;
@@ -51,6 +138,9 @@ function App() {
       .filter((video) => !keyword || video.title.toLocaleLowerCase('zh-Hant').includes(keyword))
       .sort((a, b) => b.viewCount - a.viewCount);
   }, [payload.videos, activePeriod.days, query]);
+  const visibleVideos = videos.slice(0, visibleCount);
+
+  useEffect(() => setVisibleCount(PAGE_SIZE), [period, query]);
 
   return (
     <main>
@@ -105,7 +195,7 @@ function App() {
         )}
 
         <div className="video-list">
-          {videos.map((video, index) => (
+          {visibleVideos.map((video, index) => (
             <article className="video-row" key={video.id}>
               <div className="rank" aria-label={`第 ${index + 1} 名`}>{String(index + 1).padStart(2, '0')}</div>
               <a className="thumb" href={video.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${video.title}`}>
@@ -119,11 +209,59 @@ function App() {
                   <span title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>
                 </div>
               </div>
-              <a className="watch" href={video.url} target="_blank" rel="noreferrer">觀看影片 <ArrowUpRight size={17} /></a>
+              <div className="video-actions">
+                <button className="related" onClick={() => setSelectedVideo(video)}><ScanSearch size={16} /> 找相關</button>
+                <a className="watch" href={video.url} target="_blank" rel="noreferrer">觀看影片 <ArrowUpRight size={17} /></a>
+              </div>
             </article>
           ))}
         </div>
+        {visibleCount < videos.length && (
+          <div className="load-more-wrap">
+            <p>已顯示 {visibleVideos.length}／{videos.length} 部</p>
+            <button className="load-more" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>
+              再載入 {Math.min(PAGE_SIZE, videos.length - visibleCount)} 部
+            </button>
+          </div>
+        )}
       </section>
+
+      {selectedVideo && (
+        <div className="related-overlay" onMouseDown={(event) => event.target === event.currentTarget && setSelectedVideo(null)}>
+          <aside className="related-panel" role="dialog" aria-modal="true" aria-labelledby="related-title">
+            <div className="panel-head">
+              <div><span>DISCOVER</span><h2 id="related-title">相關影片</h2></div>
+              <button className="panel-close" onClick={() => setSelectedVideo(null)} aria-label="關閉相關影片"><X /></button>
+            </div>
+
+            <div className="selected-film">
+              <img src={selectedVideo.thumbnail} alt="" />
+              <div><small>因為你選了</small><h3>{selectedVideo.title}</h3></div>
+              <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${selectedVideo.title}`}><CirclePlay /></a>
+            </div>
+
+            <div className="match-note">依片名中的作品名、角色與主題詞推薦，已排除集數及常見宣傳詞。</div>
+            {relatedVideos.length ? (
+              <div className="related-results">
+                {relatedVideos.map(({ video, reasons }, index) => (
+                  <article className="related-card" key={video.id}>
+                    <span className="related-rank">{String(index + 1).padStart(2, '0')}</span>
+                    <a className="related-thumb" href={video.url} target="_blank" rel="noreferrer"><img src={video.thumbnail} alt="" loading="lazy" /></a>
+                    <div>
+                      <a href={video.url} target="_blank" rel="noreferrer"><h3>{video.title}</h3></a>
+                      <p>{reasons.map((reason) => <span key={reason}>{reason}</span>)}</p>
+                      <small>{number.format(video.viewCount)} 次觀看</small>
+                    </div>
+                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${video.title} 繼續找相關影片`}><RotateCcw size={15} /></button>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className="related-empty">目前找不到足夠相似的片名。試試片名中包含作品名稱或角色名稱的影片。</div>
+            )}
+          </aside>
+        </div>
+      )}
 
       <footer><span>資料來源：YouTube Data API</span><span>排名依目前觀看次數計算</span></footer>
     </main>
