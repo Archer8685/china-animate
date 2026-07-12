@@ -1,4 +1,4 @@
-import React, { useDeferredValue, useEffect, useMemo, useState, useTransition } from 'react';
+import React, { useDeferredValue, useEffect, useMemo, useRef, useState, useTransition } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, ScanSearch, Search, Timer, X } from 'lucide-react';
 import './styles.css';
@@ -76,7 +76,7 @@ function formatDuration(value) {
 
 function App() {
   const [payload, setPayload] = useState({ updatedAt: null, videos: [] });
-  const [period, setPeriod] = useState('month');
+  const [period, setPeriod] = useState('day');
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -84,6 +84,7 @@ function App() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [isPeriodPending, startPeriodTransition] = useTransition();
   const deferredQuery = useDeferredValue(query);
+  const loadMoreRef = useRef(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/videos.json`, { cache: 'no-store' })
@@ -183,6 +184,18 @@ function App() {
 
   useEffect(() => setVisibleCount(PAGE_SIZE), [period, deferredQuery]);
 
+  useEffect(() => {
+    const target = loadMoreRef.current;
+    if (!target || visibleCount >= videos.length || !window.matchMedia('(max-width: 760px)').matches) return undefined;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      observer.disconnect();
+      setVisibleCount((count) => Math.min(count + PAGE_SIZE, videos.length));
+    }, { rootMargin: '500px 0px' });
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [visibleCount, videos.length]);
+
   return (
     <main>
       <header className="masthead">
@@ -194,15 +207,7 @@ function App() {
           <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
         </a>
       </header>
-
-      <section className="hero">
-        <p className="eyebrow">YOUTUBE VIEWERS' CHOICE</p>
-        <div className="hero-note">
-          <span className="live-dot" /> 每日更新
-          <p>依觀看次數整理頻道熱門作品，<br />快速找到本期最受注目的動畫。</p>
-          {payload.updatedAt && <small>上次更新 {date.format(new Date(payload.updatedAt))}</small>}
-        </div>
-      </section>
+      {payload.updatedAt && <div className="update-stamp">上次更新 {date.format(new Date(payload.updatedAt))}</div>}
 
       <section className="controls" aria-label="排行篩選">
         <div className="periods" role="tablist" aria-label="熱門期間">
@@ -262,11 +267,12 @@ function App() {
           ))}
         </div>
         {visibleCount < videos.length && (
-          <div className="load-more-wrap">
+          <div className="load-more-wrap" ref={loadMoreRef}>
             <p>已顯示 {visibleVideos.length}／{videos.length} 部</p>
             <button className="load-more" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>
               再載入 {Math.min(PAGE_SIZE, videos.length - visibleCount)} 部
             </button>
+            <div className="auto-load"><span />繼續往下滑，自動載入更多</div>
           </div>
         )}
       </section>
