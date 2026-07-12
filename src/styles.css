@@ -85,7 +85,14 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
 .selected-film small { color: #aaa69d; font-size: 10px; }
 .selected-film h3 { margin: 7px 0 0; font-size: 14px; line-height: 1.55; }
 .selected-film > a { color: white; }
-.match-note { margin: 20px 0 28px; padding-left: 13px; border-left: 3px solid var(--blue); color: #69665f; font-size: 12px; line-height: 1.7; }
+.discover-tabs { display: grid; grid-template-columns: 1fr 1fr; margin-top: 20px; border-bottom: 1px solid var(--line); }
+.discover-tabs button { position: relative; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 13px 10px; border: 0; color: #77736b; background: transparent; cursor: pointer; font-size: 13px; font-weight: 700; }
+.discover-tabs button::after { position: absolute; right: 0; bottom: -1px; left: 0; height: 3px; content: ''; background: transparent; }
+.discover-tabs button[aria-selected='true'] { color: var(--blue); }
+.discover-tabs button[aria-selected='true']::after { background: var(--blue); }
+.discover-tabs button:disabled { opacity: .38; cursor: not-allowed; }
+.discover-tabs span { min-width: 23px; padding: 2px 5px; border-radius: 20px; color: inherit; background: #2f56a60d; font: 500 10px 'DM Mono', monospace; }
+.match-note { margin: 16px 0 28px; padding-left: 13px; border-left: 3px solid var(--blue); color: #69665f; font-size: 12px; line-height: 1.7; }
 .related-results { border-top: 1px solid var(--line); }
 .related-card { display: grid; grid-template-columns: 28px 112px 1fr 32px; align-items: center; gap: 13px; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .related-rank { font: 500 12px 'DM Mono', monospace; color: var(--red); }

@@ -49,6 +49,36 @@ function displayTitle(title) {
   return clean || title;
 }
 
+function seriesKey(title) {
+  const workTitle = title.match(/《([^》]+)》/)?.[1] ?? displayTitle(title).split(/[丨|]/)[0];
+  const clean = workTitle
+    .replace(/第?\s*(?:\d+|[一二三四五六七八九十百兩]+)(?:\s*[~～—–\-至]\s*(?:\d+|[一二三四五六七八九十百兩]+))?\s*[季部集話期]/g, ' ')
+    .replace(/\b(?:season|part)\s*\d+\b/gi, ' ')
+    .replace(/全集|合集|完結篇|續集|重製版/g, ' ')
+    .replace(/\d+$/, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '')
+    .toLocaleLowerCase('zh-Hant');
+  return clean.length >= 2 ? clean : '';
+}
+
+function seriesMarker(title) {
+  const markers = title.match(/第?\s*(?:\d+|[一二三四五六七八九十百兩]+)(?:\s*[~～—–\-至]\s*(?:\d+|[一二三四五六七八九十百兩]+))?\s*[季部集話期]/g);
+  return markers?.at(-1).replace(/\s+/g, '') ?? '同一作品';
+}
+
+function isSameSeries(leftKey, rightKey) {
+  if (!leftKey || !rightKey) return false;
+  if (leftKey === rightKey) return true;
+  const [shorter, longer] = leftKey.length < rightKey.length ? [leftKey, rightKey] : [rightKey, leftKey];
+  if (shorter.length < 6) return false;
+  if (longer.includes(shorter)) return true;
+  const leftPairs = new Set(Array.from({ length: leftKey.length - 1 }, (_, index) => leftKey.slice(index, index + 2)));
+  const rightPairs = new Set(Array.from({ length: rightKey.length - 1 }, (_, index) => rightKey.slice(index, index + 2)));
+  const sharedPairs = [...leftPairs].filter((pair) => rightPairs.has(pair)).length;
+  const similarity = (sharedPairs * 2) / (leftPairs.size + rightPairs.size);
+  return similarity >= 0.65;
+}
+
 function semanticTags(video, index) {
   const maxFrequency = Math.max(30, index.rows.length * 0.12);
   const blocked = /新番|上線|漫劇|破曉|合集|一口氣|動漫社|multisub|anime/i;
@@ -99,6 +129,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [selectedVideo, setSelectedVideo] = useState(null);
+  const [discoveryMode, setDiscoveryMode] = useState('series');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [isPeriodPending, startPeriodTransition] = useTransition();
   const deferredQuery = useDeferredValue(query);
@@ -155,6 +186,16 @@ function App() {
     return { rows, frequency, positions, byId };
   }, [rankedVideos]);
 
+  const seriesVideos = useMemo(() => {
+    if (!selectedVideo) return [];
+    const selectedKey = seriesKey(selectedVideo.localizedTitle);
+    if (!selectedKey) return [];
+    return rankedVideos
+      .filter((video) => video.id !== selectedVideo.id && isSameSeries(seriesKey(video.localizedTitle), selectedKey))
+      .sort((a, b) => b.publishedTime - a.publishedTime)
+      .map((video) => ({ video, reasons: [seriesMarker(video.localizedTitle)] }));
+  }, [rankedVideos, selectedVideo]);
+
   const relatedVideos = useMemo(() => {
     if (!selectedVideo) return [];
     const sourceIndex = relatedIndex.byId.get(selectedVideo.id);
@@ -180,6 +221,7 @@ function App() {
       });
     });
 
+    const selectedSeriesKey = seriesKey(selectedVideo.localizedTitle);
     return [...candidates.entries()]
       .map(([index, matches]) => {
         const score = matches.reduce((sum, match) => sum + match.weight, 0) / Math.max(1, sourceWeight);
@@ -190,9 +232,17 @@ function App() {
         return { video: relatedIndex.rows[index].video, score, reasons };
       })
       .filter((item) => item.score >= 0.08 && item.reasons.length)
+      .filter((item) => !isSameSeries(seriesKey(item.video.localizedTitle), selectedSeriesKey))
       .sort((a, b) => b.score - a.score || b.video.viewCount - a.video.viewCount)
       .slice(0, 8);
   }, [relatedIndex, selectedVideo]);
+
+  const activeDiscoveryMode = discoveryMode === 'series' && !seriesVideos.length ? 'related' : discoveryMode;
+  const discoveryVideos = activeDiscoveryMode === 'series' ? seriesVideos : relatedVideos;
+  const openDiscovery = (video) => {
+    setDiscoveryMode('series');
+    setSelectedVideo(video);
+  };
 
   const activePeriod = periods.find((item) => item.id === period);
   const videos = useMemo(() => {
@@ -273,7 +323,7 @@ function App() {
                 <span className="play">▶</span>
               </a>
               <div className="video-info">
-                <button className="title-button" onClick={() => setSelectedVideo(video)} aria-haspopup="dialog"><h3>{video.displayTitle}</h3></button>
+                <button className="title-button" onClick={() => openDiscovery(video)} aria-haspopup="dialog"><h3>{video.displayTitle}</h3></button>
                 {homepageTags.get(video.id).length > 0 && (
                   <div className="video-tags" aria-label="影片標籤">
                     {homepageTags.get(video.id).map((tag) => <span key={tag}>{tag}</span>)}
@@ -303,7 +353,7 @@ function App() {
         <div className="related-overlay" onMouseDown={(event) => event.target === event.currentTarget && setSelectedVideo(null)}>
           <aside className="related-panel" role="dialog" aria-modal="true" aria-labelledby="related-title">
             <div className="panel-head">
-              <div><span>DISCOVER</span><h2 id="related-title">相關影片</h2></div>
+              <div><span>DISCOVER</span><h2 id="related-title">影片探索</h2></div>
               <button className="panel-close" onClick={() => setSelectedVideo(null)} aria-label="關閉相關影片"><X /></button>
             </div>
 
@@ -313,10 +363,23 @@ function App() {
               <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${selectedVideo.displayTitle}`}><CirclePlay /></a>
             </div>
 
-            <div className="match-note">依片名中的作品名、角色與主題詞推薦，已排除集數及常見宣傳詞。</div>
-            {relatedVideos.length ? (
+            <div className="discover-tabs" role="tablist" aria-label="影片探索方式">
+              <button role="tab" aria-selected={activeDiscoveryMode === 'series'} disabled={!seriesVideos.length} onClick={() => setDiscoveryMode('series')}>
+                同系列 <span>{seriesVideos.length}</span>
+              </button>
+              <button role="tab" aria-selected={activeDiscoveryMode === 'related'} onClick={() => setDiscoveryMode('related')}>
+                相關 <span>{relatedVideos.length}</span>
+              </button>
+            </div>
+
+            <div className="match-note">
+              {activeDiscoveryMode === 'series'
+                ? '依作品名稱整理同系列內容，已排除季數、集數與合集範圍。'
+                : '依片名中的角色、題材與主題詞推薦，並排除同系列及常見宣傳詞。'}
+            </div>
+            {discoveryVideos.length ? (
               <div className="related-results">
-                {relatedVideos.map(({ video, reasons }, index) => (
+                {discoveryVideos.map(({ video, reasons }, index) => (
                   <article className="related-card" key={video.id}>
                     <span className="related-rank">{String(index + 1).padStart(2, '0')}</span>
                     <a className="related-thumb" href={video.url} target="_blank" rel="noreferrer"><img src={video.thumbnail} alt="" loading="lazy" /></a>
@@ -325,12 +388,12 @@ function App() {
                       <p>{reasons.map((reason) => <span key={reason}>{reason}</span>)}</p>
                       <small>{number.format(video.viewCount)} 次觀看</small>
                     </div>
-                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${video.displayTitle} 繼續找相關影片`}><RotateCcw size={15} /></button>
+                    <button className="pivot" onClick={() => openDiscovery(video)} title="以這部影片繼續找" aria-label={`以 ${video.displayTitle} 繼續找相關影片`}><RotateCcw size={15} /></button>
                   </article>
                 ))}
               </div>
             ) : (
-              <div className="related-empty">目前找不到足夠相似的片名。試試片名中包含作品名稱或角色名稱的影片。</div>
+              <div className="related-empty">目前找不到足夠相似的影片，試試其他作品。</div>
             )}
           </aside>
         </div>
