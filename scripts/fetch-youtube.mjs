@@ -1,9 +1,12 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { ConverterFactory } from 'opencc-js/core';
+import { from, to } from 'opencc-js/preset/cn2t';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_HANDLE = 'DawnAnimeClub';
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
+const toTraditional = ConverterFactory(from.cn, to.tw);
 
 if (!API_KEY) {
   console.error('缺少 YOUTUBE_API_KEY 環境變數');
@@ -56,7 +59,7 @@ function toVideo(item) {
   const id = item.contentDetails.videoId;
   return {
     id,
-    title: item.snippet.title,
+    title: toTraditional(item.snippet.title),
     publishedAt: item.contentDetails.videoPublishedAt,
     viewCount: 0,
     thumbnail: item.snippet.thumbnails?.medium?.url ?? `https://i.ytimg.com/vi/${id}/mqdefault.jpg`,
@@ -106,6 +109,7 @@ async function refreshDetails(videos, statsIds, durationIds, fetchedAt) {
 const cache = await loadCache();
 const migratedVideos = (cache.videos ?? []).map((video) => ({
   ...video,
+  title: toTraditional(video.title),
   lastStatsFetchedAt: video.lastStatsFetchedAt ?? cache.updatedAt,
 }));
 const cachedIds = new Set(migratedVideos.map((video) => video.id));

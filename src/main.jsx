@@ -41,7 +41,7 @@ function displayTitle(title) {
   if (workTitle) clean = `${workTitle[1]} ${workTitle[2]}`;
   clean = clean
     .replace(/#[^#\s]+/g, ' ')
-    .replace(/^(?:MULTISUB\s*)?[📢🔥\s]*(?:新番上线|完结合集)[🔥📢\s]*/i, '')
+    .replace(/^(?:MULTISUB\s*)?[📢🔥\s]*(?:新番上線|完結合集)[🔥📢\s]*/i, '')
     .replace(/\s+/g, ' ')
     .replace(/[丨|]\s*$/, '')
     .trim();
@@ -49,7 +49,7 @@ function displayTitle(title) {
 }
 
 function videoTags(title) {
-  const hidden = new Set(['#破晓动漫社', '#dawnanimeclub']);
+  const hidden = new Set(['#破曉動漫社', '#dawnanimeclub']);
   return [...new Set(title.match(/#[^#\s]+/g) ?? [])]
     .filter((tag) => !hidden.has(tag.toLocaleLowerCase()))
     .slice(0, 4);
@@ -109,15 +109,21 @@ function App() {
   }, [selectedVideo]);
 
   const rankedVideos = useMemo(() => payload.videos
-    .map((video) => ({
-      ...video,
-      publishedTime: new Date(video.publishedAt).getTime(),
-      searchTitle: video.title.toLocaleLowerCase('zh-Hant'),
-    }))
+    .map((video) => {
+      const localizedTitle = video.title;
+      return {
+        ...video,
+        localizedTitle,
+        displayTitle: displayTitle(localizedTitle),
+        tags: videoTags(localizedTitle),
+        publishedTime: new Date(video.publishedAt).getTime(),
+        searchTitle: localizedTitle.toLocaleLowerCase('zh-Hant'),
+      };
+    })
     .sort((a, b) => b.viewCount - a.viewCount), [payload.videos]);
 
   const relatedIndex = useMemo(() => {
-    const rows = rankedVideos.map((video) => ({ video, terms: titleTerms(video.title) }));
+    const rows = rankedVideos.map((video) => ({ video, terms: titleTerms(video.localizedTitle) }));
     const frequency = new Map();
     const positions = new Map();
     const byId = new Map();
@@ -242,15 +248,15 @@ function App() {
           {visibleVideos.map((video, index) => (
             <article className="video-row" key={video.id}>
               <div className="rank" aria-label={`第 ${index + 1} 名`}>{String(index + 1).padStart(2, '0')}</div>
-              <a className="thumb" href={video.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${displayTitle(video.title)}`}>
+              <a className="thumb" href={video.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${video.displayTitle}`}>
                 <img src={video.thumbnail} alt="" loading="lazy" />
                 <span className="play">▶</span>
               </a>
               <div className="video-info">
-                <button className="title-button" onClick={() => setSelectedVideo(video)} aria-haspopup="dialog"><h3>{displayTitle(video.title)}</h3></button>
-                {videoTags(video.title).length > 0 && (
+                <button className="title-button" onClick={() => setSelectedVideo(video)} aria-haspopup="dialog"><h3>{video.displayTitle}</h3></button>
+                {video.tags.length > 0 && (
                   <div className="video-tags" aria-label="影片標籤">
-                    {videoTags(video.title).map((tag) => <span key={tag}>{tag}</span>)}
+                    {video.tags.map((tag) => <span key={tag}>{tag}</span>)}
                   </div>
                 )}
                 <div className="meta">
@@ -287,8 +293,8 @@ function App() {
 
             <div className="selected-film">
               <img src={selectedVideo.thumbnail} alt="" />
-              <div><small>因為你選了</small><h3>{displayTitle(selectedVideo.title)}</h3></div>
-              <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${displayTitle(selectedVideo.title)}`}><CirclePlay /></a>
+              <div><small>因為你選了</small><h3>{selectedVideo.displayTitle}</h3></div>
+              <a href={selectedVideo.url} target="_blank" rel="noreferrer" aria-label={`觀看 ${selectedVideo.displayTitle}`}><CirclePlay /></a>
             </div>
 
             <div className="match-note">依片名中的作品名、角色與主題詞推薦，已排除集數及常見宣傳詞。</div>
@@ -299,11 +305,11 @@ function App() {
                     <span className="related-rank">{String(index + 1).padStart(2, '0')}</span>
                     <a className="related-thumb" href={video.url} target="_blank" rel="noreferrer"><img src={video.thumbnail} alt="" loading="lazy" /></a>
                     <div>
-                      <a href={video.url} target="_blank" rel="noreferrer"><h3>{displayTitle(video.title)}</h3></a>
+                      <a href={video.url} target="_blank" rel="noreferrer"><h3>{video.displayTitle}</h3></a>
                       <p>{reasons.map((reason) => <span key={reason}>{reason}</span>)}</p>
                       <small>{number.format(video.viewCount)} 次觀看</small>
                     </div>
-                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${displayTitle(video.title)} 繼續找相關影片`}><RotateCcw size={15} /></button>
+                    <button className="pivot" onClick={() => setSelectedVideo(video)} title="以這部影片繼續找" aria-label={`以 ${video.displayTitle} 繼續找相關影片`}><RotateCcw size={15} /></button>
                   </article>
                 ))}
               </div>
