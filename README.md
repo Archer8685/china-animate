@@ -10,6 +10,8 @@
 
 YouTube 簡體中文標題會在每日資料更新時轉換為台灣繁體中文並寫入快取，因此顯示與搜尋皆使用繁體中文。
 
+網站右上角的「立即更新」會開啟 GitHub Actions 手動更新頁；儲存庫管理員登入後執行 `Run workflow`，即可立即重新抓取頻道資料並部署，YouTube API 金鑰不會暴露在瀏覽器端。
+
 排行顯示觀看數、上傳日期與影片長度；影片長度屬於固定資訊，首次取得後會永久沿用快取。
 
 線上網站：[https://archer8685.github.io/china-animate/](https://archer8685.github.io/china-animate/)

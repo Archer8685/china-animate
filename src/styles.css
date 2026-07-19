@@ -25,6 +25,9 @@ main { width: min(1180px, calc(100% - 64px)); margin: auto; }
 .brand-mark span { transform: rotate(8deg); font-family: 'Shippori Mincho', serif; font-size: 22px; }
 .brand strong { display: block; font-size: 17px; letter-spacing: .12em; }
 .brand small { display: block; margin-top: 3px; font: 500 9px/1 'DM Mono', monospace; letter-spacing: .18em; color: #716e67; }
+.header-actions { display: flex; align-items: center; gap: 20px; }
+.update-link { display: inline-flex; align-items: center; gap: 7px; padding: 10px 14px; border-radius: 100px; color: white; background: var(--blue); font-size: 12px; font-weight: 700; }
+.update-link:hover { background: var(--ink); }
 .channel-link { display: inline-flex; align-items: center; gap: 8px; padding: 11px 0; border-bottom: 1px solid var(--ink); font-size: 13px; font-weight: 600; }
 
 .update-stamp { padding-top: 15px; color: #77736b; font: 400 10px 'DM Mono', monospace; }
@@ -110,6 +113,8 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
 @media (max-width: 760px) {
   main { width: calc(100% - 32px); }
   .masthead { height: 88px; }
+  .header-actions { gap: 8px; }
+  .update-link { width: 42px; height: 42px; justify-content: center; padding: 0; font-size: 0; }
   .channel-link { width: 42px; height: 42px; justify-content: center; padding: 0; border: 1px solid var(--line); border-radius: 50%; font-size: 0; }
   .channel-link svg:last-child { display: none; }
   .update-stamp { padding-top: 12px; }

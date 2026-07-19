@@ -1,6 +1,6 @@
 import React, { useDeferredValue, useEffect, useMemo, useRef, useState, useTransition } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, CirclePlay, Clock3, Eye, RotateCcw, Search, Timer, X } from 'lucide-react';
+import { ArrowUpRight, CirclePlay, Clock3, Eye, RefreshCw, RotateCcw, Search, Timer, X } from 'lucide-react';
 import './styles.css';
 
 const periods = [
@@ -279,9 +279,21 @@ function App() {
           <span className="brand-mark"><span>熱</span></span>
           <span><strong>熱門中國動漫</strong><small>DAWN ANIME CLUB</small></span>
         </a>
-        <a className="channel-link" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
-          <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
-        </a>
+        <div className="header-actions">
+          <a
+            className="update-link"
+            href="https://github.com/Archer8685/china-animate/actions/workflows/update-videos.yml"
+            target="_blank"
+            rel="noreferrer"
+            title="登入 GitHub 後執行 Run workflow"
+            aria-label="立即更新頻道內容"
+          >
+            <RefreshCw size={17} /> 立即更新
+          </a>
+          <a className="channel-link" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
+            <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
+          </a>
+        </div>
       </header>
       {payload.updatedAt && <div className="update-stamp">上次更新 {date.format(new Date(payload.updatedAt))}</div>}
 
