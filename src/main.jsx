@@ -275,9 +275,9 @@ function App() {
   return (
     <main>
       <header className="masthead">
-        <a className="brand" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
+        <a className="brand" href="https://www.youtube.com/@aiStory008_01" target="_blank" rel="noreferrer">
           <span className="brand-mark"><span>熱</span></span>
-          <span><strong>熱門中國動漫</strong><small>DAWN ANIME CLUB</small></span>
+          <span><strong>熱門中國動漫</strong><small>小七動漫社</small></span>
         </a>
         <div className="header-actions">
           <a
@@ -290,7 +290,7 @@ function App() {
           >
             <RefreshCw size={17} /> 立即更新
           </a>
-          <a className="channel-link" href="https://www.youtube.com/@DawnAnimeClub" target="_blank" rel="noreferrer">
+          <a className="channel-link" href="https://www.youtube.com/@aiStory008_01" target="_blank" rel="noreferrer">
             <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
           </a>
         </div>

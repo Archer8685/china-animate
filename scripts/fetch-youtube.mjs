@@ -3,7 +3,7 @@ import { ConverterFactory } from 'opencc-js/core';
 import { from, to } from 'opencc-js/preset/cn2t';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const CHANNEL_HANDLE = 'DawnAnimeClub';
+const CHANNEL_HANDLE = 'aiStory008_01';
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
 const toTraditional = ConverterFactory(from.cn, to.tw);
@@ -107,13 +107,14 @@ async function refreshDetails(videos, statsIds, durationIds, fetchedAt) {
 }
 
 const cache = await loadCache();
-const migratedVideos = (cache.videos ?? []).map((video) => ({
+const sourceCache = cache.channelHandle === CHANNEL_HANDLE ? cache : { videos: [] };
+const migratedVideos = (sourceCache.videos ?? []).map((video) => ({
   ...video,
   title: toTraditional(video.title),
-  lastStatsFetchedAt: video.lastStatsFetchedAt ?? cache.updatedAt,
+  lastStatsFetchedAt: video.lastStatsFetchedAt ?? sourceCache.updatedAt,
 }));
 const cachedIds = new Set(migratedVideos.map((video) => video.id));
-const playlistId = cache.uploadsPlaylistId ?? await getUploadsPlaylistId();
+const playlistId = sourceCache.uploadsPlaylistId ?? await getUploadsPlaylistId();
 const newUploads = await getNewUploads(playlistId, cachedIds);
 const newVideos = newUploads.map(toVideo);
 const newIds = new Set(newVideos.map((video) => video.id));
@@ -132,5 +133,5 @@ const durationIds = new Set(videos.filter((video) => video.durationSeconds == nu
 videos = await refreshDetails(videos, statsIds, durationIds, now);
 
 await mkdir(new URL('../public/data/', import.meta.url), { recursive: true });
-await writeFile(OUTPUT, `${JSON.stringify({ updatedAt: now, uploadsPlaylistId: playlistId, videos }, null, 2)}\n`);
+await writeFile(OUTPUT, `${JSON.stringify({ channelHandle: CHANNEL_HANDLE, updatedAt: now, uploadsPlaylistId: playlistId, videos }, null, 2)}\n`);
 console.log(`新增 ${newVideos.length} 部，更新觀看數 ${statsIds.size} 部，補齊片長 ${durationIds.size} 部，沿用快取 ${videos.length - statsIds.size} 部`);
