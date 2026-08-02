@@ -11,6 +11,11 @@ const periods = [
   { id: 'year', label: '每年', days: 365 },
   { id: 'all', label: '全部', days: null },
 ];
+const channels = [
+  { handle: 'DawnAnimeClub', name: '破曉動漫社', url: 'https://www.youtube.com/@DawnAnimeClub' },
+  { handle: 'aiStory008_01', name: '小七動漫社', url: 'https://www.youtube.com/@aiStory008_01' },
+];
+const channelNames = new Map(channels.map((channel) => [channel.handle, channel.name]));
 const PAGE_SIZE = 30;
 
 const number = new Intl.NumberFormat('zh-TW', { notation: 'compact', maximumFractionDigits: 1 });
@@ -164,6 +169,7 @@ function App() {
         ...video,
         localizedTitle,
         displayTitle: displayTitle(localizedTitle),
+        channelName: channelNames.get(video.channelHandle) ?? '',
         publishedTime: new Date(video.publishedAt).getTime(),
         searchTitle: localizedTitle.toLocaleLowerCase('zh-Hant'),
       };
@@ -275,10 +281,10 @@ function App() {
   return (
     <main>
       <header className="masthead">
-        <a className="brand" href="https://www.youtube.com/@aiStory008_01" target="_blank" rel="noreferrer">
+        <div className="brand">
           <span className="brand-mark"><span>熱</span></span>
-          <span><strong>熱門中國動漫</strong><small>小七動漫社</small></span>
-        </a>
+          <span><strong>熱門中國動漫</strong><small>DUAL CHANNEL RANKING</small></span>
+        </div>
         <div className="header-actions">
           <a
             className="update-link"
@@ -290,12 +296,17 @@ function App() {
           >
             <RefreshCw size={17} /> 立即更新
           </a>
-          <a className="channel-link" href="https://www.youtube.com/@aiStory008_01" target="_blank" rel="noreferrer">
-            <CirclePlay size={18} /> 前往頻道 <ArrowUpRight size={16} />
-          </a>
         </div>
       </header>
       {payload.updatedAt && <div className="update-stamp">上次更新 {date.format(new Date(payload.updatedAt))}</div>}
+      <nav className="source-strip" aria-label="頻道來源">
+        <span>頻道來源</span>
+        {channels.map((channel) => (
+          <a className="source-link" href={channel.url} target="_blank" rel="noreferrer" key={channel.handle}>
+            <CirclePlay size={14} /> {channel.name} <ArrowUpRight size={13} />
+          </a>
+        ))}
+      </nav>
 
       <section className="controls" aria-label="排行篩選">
         <div className="periods" role="tablist" aria-label="熱門期間">
@@ -342,6 +353,7 @@ function App() {
                   </div>
                 )}
                 <div className="meta">
+                  {video.channelName && <span className="video-channel">{video.channelName}</span>}
                   <span title={`${fullNumber.format(video.viewCount)} 次觀看`}><Eye size={16} /> {number.format(video.viewCount)} 次觀看</span>
                   <span className="upload-date" title={formatAge(video.publishedAt)}><Clock3 size={15} /> {date.format(new Date(video.publishedAt))}</span>
                   {formatDuration(video.durationSeconds) && <span className="duration"><Timer size={15} /> {formatDuration(video.durationSeconds)}</span>}

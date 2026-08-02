@@ -3,7 +3,10 @@ import { ConverterFactory } from 'opencc-js/core';
 import { from, to } from 'opencc-js/preset/cn2t';
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
-const CHANNEL_HANDLE = 'aiStory008_01';
+const CHANNELS = [
+  { handle: 'DawnAnimeClub', name: '破曉動漫社' },
+  { handle: 'aiStory008_01', name: '小七動漫社' },
+];
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
 const toTraditional = ConverterFactory(from.cn, to.tw);
@@ -30,9 +33,9 @@ async function loadCache() {
   }
 }
 
-async function getUploadsPlaylistId() {
-  const data = await youtube('channels', { part: 'contentDetails', forHandle: CHANNEL_HANDLE });
-  if (!data.items?.length) throw new Error(`找不到頻道 @${CHANNEL_HANDLE}`);
+async function getUploadsPlaylistId(handle) {
+  const data = await youtube('channels', { part: 'contentDetails', forHandle: handle });
+  if (!data.items?.length) throw new Error(`找不到頻道 @${handle}`);
   return data.items[0].contentDetails.relatedPlaylists.uploads;
 }
 
@@ -55,10 +58,11 @@ async function getNewUploads(playlistId, cachedIds) {
   return uploads;
 }
 
-function toVideo(item) {
+function toVideo(item, channelHandle) {
   const id = item.contentDetails.videoId;
   return {
     id,
+    channelHandle,
     title: toTraditional(item.snippet.title),
     publishedAt: item.contentDetails.videoPublishedAt,
     viewCount: 0,
@@ -107,16 +111,25 @@ async function refreshDetails(videos, statsIds, durationIds, fetchedAt) {
 }
 
 const cache = await loadCache();
-const sourceCache = cache.channelHandle === CHANNEL_HANDLE ? cache : { videos: [] };
-const migratedVideos = (sourceCache.videos ?? []).map((video) => ({
+const legacyHandle = cache.channelHandle;
+const migratedVideos = (cache.videos ?? []).map((video) => ({
   ...video,
+  channelHandle: video.channelHandle ?? legacyHandle ?? CHANNELS[0].handle,
   title: toTraditional(video.title),
-  lastStatsFetchedAt: video.lastStatsFetchedAt ?? sourceCache.updatedAt,
+  lastStatsFetchedAt: video.lastStatsFetchedAt ?? cache.updatedAt,
 }));
-const cachedIds = new Set(migratedVideos.map((video) => video.id));
-const playlistId = sourceCache.uploadsPlaylistId ?? await getUploadsPlaylistId();
-const newUploads = await getNewUploads(playlistId, cachedIds);
-const newVideos = newUploads.map(toVideo);
+const uploadsPlaylistIds = { ...(cache.uploadsPlaylistIds ?? {}) };
+if (legacyHandle && cache.uploadsPlaylistId) uploadsPlaylistIds[legacyHandle] ??= cache.uploadsPlaylistId;
+const newVideos = [];
+for (const channel of CHANNELS) {
+  const cachedIds = new Set(migratedVideos
+    .filter((video) => video.channelHandle === channel.handle)
+    .map((video) => video.id));
+  const playlistId = uploadsPlaylistIds[channel.handle] ?? await getUploadsPlaylistId(channel.handle);
+  uploadsPlaylistIds[channel.handle] = playlistId;
+  const newUploads = await getNewUploads(playlistId, cachedIds);
+  newVideos.push(...newUploads.map((item) => toVideo(item, channel.handle)));
+}
 const newIds = new Set(newVideos.map((video) => video.id));
 const cutoff = Date.now() - 366 * DAY;
 let videos = [...newVideos, ...migratedVideos]
@@ -133,5 +146,5 @@ const durationIds = new Set(videos.filter((video) => video.durationSeconds == nu
 videos = await refreshDetails(videos, statsIds, durationIds, now);
 
 await mkdir(new URL('../public/data/', import.meta.url), { recursive: true });
-await writeFile(OUTPUT, `${JSON.stringify({ channelHandle: CHANNEL_HANDLE, updatedAt: now, uploadsPlaylistId: playlistId, videos }, null, 2)}\n`);
-console.log(`新增 ${newVideos.length} 部，更新觀看數 ${statsIds.size} 部，補齊片長 ${durationIds.size} 部，沿用快取 ${videos.length - statsIds.size} 部`);
+await writeFile(OUTPUT, `${JSON.stringify({ channels: CHANNELS, updatedAt: now, uploadsPlaylistIds, videos }, null, 2)}\n`);
+console.log(`頻道 ${CHANNELS.length} 個，新增 ${newVideos.length} 部，更新觀看數 ${statsIds.size} 部，補齊片長 ${durationIds.size} 部，沿用快取 ${videos.length - statsIds.size} 部`);
