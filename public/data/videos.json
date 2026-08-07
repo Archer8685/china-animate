@@ -7,14 +7,129 @@
     {
       "handle": "aiStory008_01",
       "name": "小七動漫社"
+    },
+    {
+      "handle": "kkanimeclub",
+      "name": "KK動漫社 Anime Club"
     }
   ],
-  "updatedAt": "2026-08-07T00:19:41.411Z",
+  "updatedAt": "2026-08-07T11:21:24.052Z",
   "uploadsPlaylistIds": {
     "aiStory008_01": "UUlfoXD_GcVWQJcoNhWBNRlw",
-    "DawnAnimeClub": "UU80ztI40QAXzWL94eoRzWow"
+    "DawnAnimeClub": "UU80ztI40QAXzWL94eoRzWow",
+    "kkanimeclub": "UUn1fyHZgx8GEVGihOIJATJA"
   },
   "videos": [
+    {
+      "id": "h-kCpmXdTqU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《老祖歸來，全族成帝》第2季開播｜大帝老祖坐鎮，顧家橫掃萬族登臨巔峰｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-07T10:35:14Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/h-kCpmXdTqU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=h-kCpmXdTqU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10971
+    },
+    {
+      "id": "fImJ49GjfWQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《被貶北涼的棄子，三年後十萬鐵騎兵臨城下》第4季開播｜被貶棄子三年後率十萬鐵騎兵臨城下，叛軍聯盟設伏反遭全殲｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-07T09:47:59Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/fImJ49GjfWQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fImJ49GjfWQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7012
+    },
+    {
+      "id": "PubwpbFo28U",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《御獸學院》第2季開播｜御獸學院新生踏入喚獸之森，與神獸締結羈絆守護世界｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-07T09:33:47Z",
+      "viewCount": 1,
+      "thumbnail": "https://i.ytimg.com/vi/PubwpbFo28U/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PubwpbFo28U",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7204
+    },
+    {
+      "id": "J1sa5uivd14",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《屠龍歸來：捧我成天下第一婿》第2季開播｜隱世聖主上門退婚，岳父慧眼識珠當眾立他為唯一繼承人｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-07T08:23:15Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/J1sa5uivd14/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=J1sa5uivd14",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7426
+    },
+    {
+      "id": "gsnnHgpmtEY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《讓你代寫情書，你落筆驚哭大儒》第3季開播｜代寫情書驚哭大儒，寒門博士逆襲科舉｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T12:12:02Z",
+      "viewCount": 371,
+      "thumbnail": "https://i.ytimg.com/vi/gsnnHgpmtEY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gsnnHgpmtEY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3069
+    },
+    {
+      "id": "IEycyf5H5zw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《田野之上的新生,青青田園暖》第3季開播｜豪門棄婦回鄉創業，帶全村逆襲致富｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T11:30:57Z",
+      "viewCount": 435,
+      "thumbnail": "https://i.ytimg.com/vi/IEycyf5H5zw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=IEycyf5H5zw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6699
+    },
+    {
+      "id": "WWklBJysIAs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《正道宗門，背地裡全是魔功》第2季開播｜正道宗主暗修魔功忽悠弟子全宗成魔｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T11:15:18Z",
+      "viewCount": 32,
+      "thumbnail": "https://i.ytimg.com/vi/WWklBJysIAs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WWklBJysIAs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8282
+    },
+    {
+      "id": "NfJyB97ClzE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《帥府福崽，卯卯駕到》第4季開播｜鄉下母女進帥府，三歲福崽治癒全家逆襲｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T11:01:21Z",
+      "viewCount": 53,
+      "thumbnail": "https://i.ytimg.com/vi/NfJyB97ClzE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NfJyB97ClzE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7639
+    },
+    {
+      "id": "t5PxC3QIbLk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《分手後男頻女頻大亂鬥》第2季開播｜穿書女孩尋親遇冷麵總裁，揭開父輩秘密共渡情劫｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T10:33:20Z",
+      "viewCount": 113,
+      "thumbnail": "https://i.ytimg.com/vi/t5PxC3QIbLk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=t5PxC3QIbLk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8336
+    },
+    {
+      "id": "_SOzGU65uI0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《義父們送我上大學》第2季開播｜七位義父撐腰，她帶失憶爺爺逆襲開點心鋪｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T10:13:18Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/_SOzGU65uI0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_SOzGU65uI0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3389
+    },
     {
       "id": "rvRrFprI-i8",
       "channelHandle": "aiStory008_01",
@@ -38,6 +153,50 @@
       "durationSeconds": 7640
     },
     {
+      "id": "Zb4pQOD4dmo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《落榜寒門，八零廢品撿寶人》第1季開播｜落榜生收廢品竟淘出明代御紙，逆襲成古董大亨｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T02:00:31Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/Zb4pQOD4dmo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Zb4pQOD4dmo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9076
+    },
+    {
+      "id": "gCQiy5LrFmM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《廢太子飼養手冊之救贖！》第3季開播｜廢太子斷腿流放，苦命奴婢貼身照顧卻連溫飽都難保｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T01:06:45Z",
+      "viewCount": 101,
+      "thumbnail": "https://i.ytimg.com/vi/gCQiy5LrFmM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gCQiy5LrFmM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7519
+    },
+    {
+      "id": "wSXhYXI2sJM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《剛認親就流放，悍女廢土造糧倉》第2季開播｜真千金剛認親就被流放，悍女廢土造出糧倉富一方｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T00:47:13Z",
+      "viewCount": 13,
+      "thumbnail": "https://i.ytimg.com/vi/wSXhYXI2sJM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wSXhYXI2sJM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5657
+    },
+    {
+      "id": "4dgrV5N3ZEU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《這個保鏢醫武雙全鎮山河》第1季開播｜純陽帝尊下山當保鏢，一針定生死一拳鎮山河｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T00:34:20Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/4dgrV5N3ZEU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4dgrV5N3ZEU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7253
+    },
+    {
       "id": "3Drp_fmkxSM",
       "channelHandle": "aiStory008_01",
       "title": "我在末日，開餐廳爆火了第三季【全集4K】凌菁在異世界末日經營中華餐廳，通過系統幫助和自身廚藝，為倖存者提供帶有增益效果的美食。隨著中級傳送門開啟，凌菁與邊城官方合作深入探索汙染區，遭遇更強大的S...",
@@ -47,6 +206,798 @@
       "url": "https://www.youtube.com/watch?v=3Drp_fmkxSM",
       "lastStatsFetchedAt": "2026-08-07T00:19:41.411Z",
       "durationSeconds": 8266
+    },
+    {
+      "id": "B1T-T5oVX3M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《農門悍女：我打獵養家奔小康》第1季開播｜短跑冠軍穿成農女，手撕賣身契帶全家打獵逆襲｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-06T00:05:34Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/B1T-T5oVX3M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=B1T-T5oVX3M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6782
+    },
+    {
+      "id": "ncSi8gwefzA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《少爺你倒是說句話呀》第1季開播｜失語少爺只對她開口，鄉下真千金翻牆治癒冰封心｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T23:47:26Z",
+      "viewCount": 121,
+      "thumbnail": "https://i.ytimg.com/vi/ncSi8gwefzA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ncSi8gwefzA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5793
+    },
+    {
+      "id": "RjRdLgawO7c",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《晚風吹散舊姻塵》第1季開播｜重生棄婚斬斷內耗，戀綜憑廚藝逆襲，與溫柔的她雙向奔赴｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T23:16:39Z",
+      "viewCount": 63,
+      "thumbnail": "https://i.ytimg.com/vi/RjRdLgawO7c/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=RjRdLgawO7c",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7821
+    },
+    {
+      "id": "bl0PflWp81k",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《戀綜上，我和清冷設計師爆火全網》第1季開播｜身懷簽到系統的財富自由大佬上戀綜，竟與清冷設計師雙向奔赴狂撒狗糧｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T22:58:52Z",
+      "viewCount": 322,
+      "thumbnail": "https://i.ytimg.com/vi/bl0PflWp81k/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bl0PflWp81k",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7913
+    },
+    {
+      "id": "Qv5sFMon8Fc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《駝駝的怪物攻略》第2季開播｜萬人迷異能男為校花壓抑本性，分裂體卻誓要獨佔她｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T22:44:30Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/Qv5sFMon8Fc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Qv5sFMon8Fc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2212
+    },
+    {
+      "id": "f54ucPBfuQ8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《趕海之王，海鮮大禮包拿來吧你！》第1季開播｜被裁青年覺醒透視異能，趕海逆襲暴打惡霸｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T22:34:11Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/f54ucPBfuQ8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=f54ucPBfuQ8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7457
+    },
+    {
+      "id": "XwIaeT2fTYg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《因為懶，被元始嫌棄後我拜入截教》第1季開播｜被元始嫌棄太懶，我拜入截教反手成聖｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T22:16:22Z",
+      "viewCount": 55,
+      "thumbnail": "https://i.ytimg.com/vi/XwIaeT2fTYg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XwIaeT2fTYg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8420
+    },
+    {
+      "id": "EZ9LWfRe160",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《病弱太子妃，全員被我演崩了》第1季開播｜將門怪力女裝病弱，手撕渣男智鬥後宮，撩瘋病弱太子｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T21:49:30Z",
+      "viewCount": 462,
+      "thumbnail": "https://i.ytimg.com/vi/EZ9LWfRe160/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EZ9LWfRe160",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 1862
+    },
+    {
+      "id": "muf80UWRoBU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《異海生存進化：從生物航母開始》第1季開播｜穿越者分解進化，破船變生物航母碾壓海怪群雄｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T21:46:12Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/muf80UWRoBU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=muf80UWRoBU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8026
+    },
+    {
+      "id": "rFGTINNN35Y",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《季鴦穿書記》第1季開播｜被搶首富未婚夫反手嫁他短命丈夫，竟陪她逆襲成人生贏家｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T20:56:26Z",
+      "viewCount": 28,
+      "thumbnail": "https://i.ytimg.com/vi/rFGTINNN35Y/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=rFGTINNN35Y",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7568
+    },
+    {
+      "id": "O7gq52AzBCQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《藏拙赴約，大佬驚豔全城》第1季開播｜鄉下少年藏多重身份赴婚約，遭構陷反手打臉驚豔全城｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T20:37:46Z",
+      "viewCount": 107,
+      "thumbnail": "https://i.ytimg.com/vi/O7gq52AzBCQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O7gq52AzBCQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7344
+    },
+    {
+      "id": "OhJFZaONOGA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《今生先守我夫君》第1季開播｜重生棄婦攜子歸，鬥穿書女護夫君逆襲｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T20:10:44Z",
+      "viewCount": 39,
+      "thumbnail": "https://i.ytimg.com/vi/OhJFZaONOGA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OhJFZaONOGA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7788
+    },
+    {
+      "id": "6hG2qryUDsU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《道爺不悟道，殺妖漲修為》第2季開播｜穿越斬妖積修為，師門背叛身死魂裂，歸來複仇｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T20:06:18Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/6hG2qryUDsU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6hG2qryUDsU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3717
+    },
+    {
+      "id": "GtcO7KiupU0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《凡人仙葫》第2~10季開播｜凡人得仙葫捲入仙道紛爭，卻只想安穩種地｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T19:56:02Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/GtcO7KiupU0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GtcO7KiupU0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 39045
+    },
+    {
+      "id": "2yu1VRk0-Jw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，這富二代我不裝了》第8季開播｜重生富商攜兄弟智鬥王室，商場博弈反轉不斷｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T19:50:59Z",
+      "viewCount": 32,
+      "thumbnail": "https://i.ytimg.com/vi/2yu1VRk0-Jw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2yu1VRk0-Jw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8583
+    },
+    {
+      "id": "HRS2c2J0eD0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《穿成鎮北王，誰慣著退婚長公主》第1季開播｜被長公主當眾逃婚羞辱，廢物世子一怒斬惡奴廢狀元，逆天改命｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T19:41:57Z",
+      "viewCount": 39,
+      "thumbnail": "https://i.ytimg.com/vi/HRS2c2J0eD0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HRS2c2J0eD0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8285
+    },
+    {
+      "id": "sGX0T2iSmXs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，誰還裝富二代啊》第7季開播｜重生學霸攜芯片代理權回京，千億產業園對決賀家巨頭｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T19:20:51Z",
+      "viewCount": 69,
+      "thumbnail": "https://i.ytimg.com/vi/sGX0T2iSmXs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sGX0T2iSmXs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7777
+    },
+    {
+      "id": "4NVoK0886Es",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《裝窮回家，親戚悔青腸子》第2季開播｜千億少爺裝窮22年，逆境逆襲打臉全場｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T19:05:38Z",
+      "viewCount": 8,
+      "thumbnail": "https://i.ytimg.com/vi/4NVoK0886Es/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4NVoK0886Es",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8567
+    },
+    {
+      "id": "7kMsU4bEjNQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《18歲化龍入海，我已無敵》第1季開播｜少年墜海獲祖龍傳承，控水透視打臉惡霸，無敵人生｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T18:55:58Z",
+      "viewCount": 24,
+      "thumbnail": "https://i.ytimg.com/vi/7kMsU4bEjNQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7kMsU4bEjNQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7651
+    },
+    {
+      "id": "qHuY0nacdTE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《燼九州》第11季開播｜掌權者遭圍剿，他攜公主入京攪動朝堂棋局｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T18:46:08Z",
+      "viewCount": 298,
+      "thumbnail": "https://i.ytimg.com/vi/qHuY0nacdTE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qHuY0nacdTE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7811
+    },
+    {
+      "id": "62hHXP_rhn8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《田野之上的新生,青青田園暖》第2季開播｜豪門棄婦回鄉創業，帶全村逆襲致富還治癒弟弟｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T18:36:53Z",
+      "viewCount": 45,
+      "thumbnail": "https://i.ytimg.com/vi/62hHXP_rhn8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=62hHXP_rhn8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6786
+    },
+    {
+      "id": "NxghzK58Vvg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《七年首付換來一次清醒》第1季開播｜多年積蓄被家人挪用，身世揭曉後他逆襲繼承家業｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T18:28:28Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/NxghzK58Vvg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NxghzK58Vvg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7459
+    },
+    {
+      "id": "oOzTHayJVTk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《攤牌了，裝窮回家被團寵了》第1季開播｜總裁裝窮回家被弟妹嘲諷，父母寵她逆襲全場｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T16:43:30Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/oOzTHayJVTk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oOzTHayJVTk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8501
+    },
+    {
+      "id": "TYBXmjyvJTA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《九淵》第2季開播｜魔尊攜女尋回轉世孃親，覺醒天魔血脈逆襲復仇｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T16:18:00Z",
+      "viewCount": 13,
+      "thumbnail": "https://i.ytimg.com/vi/TYBXmjyvJTA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TYBXmjyvJTA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3537
+    },
+    {
+      "id": "AUJPFct6wxI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《我穿成駙馬爺，公主誰愛娶誰娶》第3季開播｜駙馬爺公開商行身份退婚立功，詩詞朝堂連挫敵手逆襲｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T10:22:23Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/AUJPFct6wxI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=AUJPFct6wxI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 13324
+    },
+    {
+      "id": "ls2JzqACGsA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《花茶人偶苗疆少主他又爭又搶》第3季開播｜被擄苗疆成極品母蠱，她謊稱婚約騙走最強藥人｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T09:38:52Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/ls2JzqACGsA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ls2JzqACGsA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6578
+    },
+    {
+      "id": "-8sy5Qa2ZR4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《悍妻有神力，攜夫築良田》第4季開播｜穿越神醫攜夫種田創業，惡鄰傷子引糾紛，夫妻逆襲化解矛盾｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T07:59:05Z",
+      "viewCount": 222,
+      "thumbnail": "https://i.ytimg.com/vi/-8sy5Qa2ZR4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-8sy5Qa2ZR4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8557
+    },
+    {
+      "id": "WCq6jTIkmSQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，這富二代我不裝了》第7季開播｜重生富二代遭頂級大佬設局，周老護犢反殺奪鉅額產業｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T07:59:05Z",
+      "viewCount": 65,
+      "thumbnail": "https://i.ytimg.com/vi/WCq6jTIkmSQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WCq6jTIkmSQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8608
+    },
+    {
+      "id": "KEuyznjCnnY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《閃婚的醫學年輕大佬是前男友室友》第4季開播｜閃婚醫學大佬竟是前男友室友，夫妻聯手碾壓極品｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T07:08:24Z",
+      "viewCount": 181,
+      "thumbnail": "https://i.ytimg.com/vi/KEuyznjCnnY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KEuyznjCnnY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7666
+    },
+    {
+      "id": "QE3FK-FrqyU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《農村獸神》第2季開播｜重生1984覺醒獸僕系統，契約猛獸降維打擊，帶全家頓頓吃肉｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T06:57:55Z",
+      "viewCount": 28,
+      "thumbnail": "https://i.ytimg.com/vi/QE3FK-FrqyU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=QE3FK-FrqyU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7292
+    },
+    {
+      "id": "oU3SwcLjyfU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《胎珠傳》第8季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T04:06:28Z",
+      "viewCount": 890,
+      "thumbnail": "https://i.ytimg.com/vi/oU3SwcLjyfU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oU3SwcLjyfU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11870
+    },
+    {
+      "id": "SVqGa4XPGuo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《我竟是道祖之狩獵氣運之子》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T03:20:22Z",
+      "viewCount": 147,
+      "thumbnail": "https://i.ytimg.com/vi/SVqGa4XPGuo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SVqGa4XPGuo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7479
+    },
+    {
+      "id": "A3c0KyMp9CE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一人一龜一豬，三大禍害去修仙》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T03:19:34Z",
+      "viewCount": 61,
+      "thumbnail": "https://i.ytimg.com/vi/A3c0KyMp9CE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=A3c0KyMp9CE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10133
+    },
+    {
+      "id": "0_fuP187xNg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《九惡妃每日一問，陛下駕崩了嗎？》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T02:54:29Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/0_fuP187xNg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0_fuP187xNg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8144
+    },
+    {
+      "id": "d4WxfhvRVJQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一把屠刀一縷香》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T02:14:59Z",
+      "viewCount": 514,
+      "thumbnail": "https://i.ytimg.com/vi/d4WxfhvRVJQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=d4WxfhvRVJQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2461
+    },
+    {
+      "id": "JJMpznHRXBU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《張牡翻身記》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T02:00:34Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/JJMpznHRXBU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JJMpznHRXBU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8538
+    },
+    {
+      "id": "-6Eg1TTLwnk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《庶子問鼎》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T02:00:19Z",
+      "viewCount": 185,
+      "thumbnail": "https://i.ytimg.com/vi/-6Eg1TTLwnk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-6Eg1TTLwnk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4268
+    },
+    {
+      "id": "MVbX8cbIM2M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《紫天道種長公主逆襲記》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T01:12:47Z",
+      "viewCount": 19,
+      "thumbnail": "https://i.ytimg.com/vi/MVbX8cbIM2M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=MVbX8cbIM2M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3284
+    },
+    {
+      "id": "bTVgyV-jP58",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《姜檸穿越記之京城奇緣》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T01:00:33Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/bTVgyV-jP58/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bTVgyV-jP58",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7570
+    },
+    {
+      "id": "kIxyNuY-B-U",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《殘龍出世，萬龍稱祖》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T00:32:43Z",
+      "viewCount": 13,
+      "thumbnail": "https://i.ytimg.com/vi/kIxyNuY-B-U/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kIxyNuY-B-U",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2775
+    },
+    {
+      "id": "JcfSlyIGgJ8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《挖地成寶：煉氣三萬層》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T00:29:42Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/JcfSlyIGgJ8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JcfSlyIGgJ8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7150
+    },
+    {
+      "id": "SMMg_nvT1DY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《剛成殭屍，我把定僵符當零食吃》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T00:18:55Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/SMMg_nvT1DY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SMMg_nvT1DY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10056
+    },
+    {
+      "id": "2KxAVvvUoPA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《劍仙歸來：誰讓這劍仙逆世重修的？》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-05T00:01:54Z",
+      "viewCount": 53,
+      "thumbnail": "https://i.ytimg.com/vi/2KxAVvvUoPA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2KxAVvvUoPA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12569
+    },
+    {
+      "id": "3BMt_9jmo30",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《冷宮開席：陛下又來蹭飯了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T23:46:16Z",
+      "viewCount": 101,
+      "thumbnail": "https://i.ytimg.com/vi/3BMt_9jmo30/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3BMt_9jmo30",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8655
+    },
+    {
+      "id": "J_CVvaOsadQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《赦夜人》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:54:26Z",
+      "viewCount": 23,
+      "thumbnail": "https://i.ytimg.com/vi/J_CVvaOsadQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=J_CVvaOsadQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8028
+    },
+    {
+      "id": "_9PHcMBS4dU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《力量每天增加百分之一，我無敵了》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:51:37Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/_9PHcMBS4dU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_9PHcMBS4dU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7270
+    },
+    {
+      "id": "OrY1scaDrKw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全家團寵真千金》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:25:11Z",
+      "viewCount": 592,
+      "thumbnail": "https://i.ytimg.com/vi/OrY1scaDrKw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OrY1scaDrKw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7916
+    },
+    {
+      "id": "ExjFtHMaU-g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《潮頭立,青史名》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:16:53Z",
+      "viewCount": 121,
+      "thumbnail": "https://i.ytimg.com/vi/ExjFtHMaU-g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ExjFtHMaU-g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5076
+    },
+    {
+      "id": "hSd2rfJ7Dx4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生，我從野洞開始發家》第70季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:16:47Z",
+      "viewCount": 8,
+      "thumbnail": "https://i.ytimg.com/vi/hSd2rfJ7Dx4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hSd2rfJ7Dx4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7396
+    },
+    {
+      "id": "66THCeyUdMg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《透視海洋：整個大海都是我的漁場》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T22:03:30Z",
+      "viewCount": 37,
+      "thumbnail": "https://i.ytimg.com/vi/66THCeyUdMg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=66THCeyUdMg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7453
+    },
+    {
+      "id": "nQ-2eV1BRj8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《盛夏暗戀簿》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T21:56:14Z",
+      "viewCount": 32,
+      "thumbnail": "https://i.ytimg.com/vi/nQ-2eV1BRj8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nQ-2eV1BRj8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2917
+    },
+    {
+      "id": "qpMddPPkq78",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《反派仙帝：專治各種天命之子》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T21:26:34Z",
+      "viewCount": 46,
+      "thumbnail": "https://i.ytimg.com/vi/qpMddPPkq78/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qpMddPPkq78",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4664
+    },
+    {
+      "id": "wZiNm47phf8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《仙界女符師》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T21:15:56Z",
+      "viewCount": 22,
+      "thumbnail": "https://i.ytimg.com/vi/wZiNm47phf8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wZiNm47phf8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9270
+    },
+    {
+      "id": "eDPAGrrWS1c",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生65年，我這老太太不好惹》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T21:15:43Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/eDPAGrrWS1c/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=eDPAGrrWS1c",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8503
+    },
+    {
+      "id": "du3ujqAxIpo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《萬古長生，大帝只配守山門》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T21:13:55Z",
+      "viewCount": 61,
+      "thumbnail": "https://i.ytimg.com/vi/du3ujqAxIpo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=du3ujqAxIpo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8320
+    },
+    {
+      "id": "HwxXCtLtGMU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《悍妻有神力，攜夫築良田》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T20:29:32Z",
+      "viewCount": 67,
+      "thumbnail": "https://i.ytimg.com/vi/HwxXCtLtGMU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HwxXCtLtGMU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8054
+    },
+    {
+      "id": "0ZlpNoumAzc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《軟糯小王妃，嫁給攝政王后翻身了》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T20:22:17Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/0ZlpNoumAzc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0ZlpNoumAzc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7025
+    },
+    {
+      "id": "lj3_y0nmICM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《雲瑤傳》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T20:03:16Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/lj3_y0nmICM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lj3_y0nmICM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8267
+    },
+    {
+      "id": "1NUTyhw_tjY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《絕命大藏家之命局迷蹤》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T19:48:22Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/1NUTyhw_tjY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1NUTyhw_tjY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7460
+    },
+    {
+      "id": "1kSHUlfw1ho",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《綁定帶貨系統，全網求我別限購》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T19:32:52Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/1kSHUlfw1ho/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1kSHUlfw1ho",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10383
+    },
+    {
+      "id": "_x2uf10iRwA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《三國：被貂蟬撿回家開局十倍速我直接起飛》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T19:25:45Z",
+      "viewCount": 197,
+      "thumbnail": "https://i.ytimg.com/vi/_x2uf10iRwA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_x2uf10iRwA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7443
+    },
+    {
+      "id": "WaAE45lsuUA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生神話燭龍，燭照大千》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T19:21:59Z",
+      "viewCount": 25,
+      "thumbnail": "https://i.ytimg.com/vi/WaAE45lsuUA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WaAE45lsuUA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7326
+    },
+    {
+      "id": "vV_HpY14h1I",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《漁鄉守業，我能契約海洋巨獸》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T18:50:17Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/vV_HpY14h1I/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vV_HpY14h1I",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5734
+    },
+    {
+      "id": "hkiBE0Qoa8c",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《燭九陰》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T18:46:09Z",
+      "viewCount": 189,
+      "thumbnail": "https://i.ytimg.com/vi/hkiBE0Qoa8c/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hkiBE0Qoa8c",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8935
+    },
+    {
+      "id": "EbJyiaCE9-8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《錯緣蕪霜》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T18:38:24Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/EbJyiaCE9-8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EbJyiaCE9-8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2846
+    },
+    {
+      "id": "gz0GRth7NdQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《假裝在月亮心口撒個嬌》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T17:47:51Z",
+      "viewCount": 129,
+      "thumbnail": "https://i.ytimg.com/vi/gz0GRth7NdQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gz0GRth7NdQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8452
+    },
+    {
+      "id": "bTDVnQTkIPU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《我家井裡有條龍，下海捕魚成漁神了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T17:30:09Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/bTDVnQTkIPU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bTDVnQTkIPU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 19532
+    },
+    {
+      "id": "JLpTeDW7PS4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《心聲爆了滿朝文武都吃瓜》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T15:15:52Z",
+      "viewCount": 51,
+      "thumbnail": "https://i.ytimg.com/vi/JLpTeDW7PS4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JLpTeDW7PS4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10389
+    },
+    {
+      "id": "4xhopfnNEJE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重回千禧我靠趕海養活家人》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T15:15:37Z",
+      "viewCount": 86,
+      "thumbnail": "https://i.ytimg.com/vi/4xhopfnNEJE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4xhopfnNEJE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7533
+    },
+    {
+      "id": "UYxKh-o039M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《萬寶金瞳》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T14:49:23Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/UYxKh-o039M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UYxKh-o039M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9130
+    },
+    {
+      "id": "wwaWUB9ku_A",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《殺手穿越滿級農婦，專治不服》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T14:46:28Z",
+      "viewCount": 108,
+      "thumbnail": "https://i.ytimg.com/vi/wwaWUB9ku_A/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wwaWUB9ku_A",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7965
+    },
+    {
+      "id": "90ySA6vLTuc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生歸來，極品家人瑟瑟發抖》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T14:05:20Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/90ySA6vLTuc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=90ySA6vLTuc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8420
     },
     {
       "id": "6UCm92UNILE",
@@ -60,6 +1011,50 @@
       "durationSeconds": 8108
     },
     {
+      "id": "lCZuEX_ZycI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《小公爺道，老子可是何美麗的男人》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T13:44:22Z",
+      "viewCount": 53,
+      "thumbnail": "https://i.ytimg.com/vi/lCZuEX_ZycI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lCZuEX_ZycI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8346
+    },
+    {
+      "id": "LnFWE7GQP-g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《八七趕海，老婆真是港島大小姐》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T13:40:17Z",
+      "viewCount": 21,
+      "thumbnail": "https://i.ytimg.com/vi/LnFWE7GQP-g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LnFWE7GQP-g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7245
+    },
+    {
+      "id": "g9nI4fs1IUw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《遇強則強，仙帝見我也得跪》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T13:36:51Z",
+      "viewCount": 34,
+      "thumbnail": "https://i.ytimg.com/vi/g9nI4fs1IUw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=g9nI4fs1IUw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7699
+    },
+    {
+      "id": "6K9Ka3WAS7Y",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全家戀愛腦，郡主抽醒一個又一個》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T13:07:13Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/6K9Ka3WAS7Y/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6K9Ka3WAS7Y",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8170
+    },
+    {
       "id": "IBK4jb_ysDE",
       "channelHandle": "aiStory008_01",
       "title": "滿級種田人【全集4K】平凡青年楚風獨居深山農場，綁定種田系統，只當自己身處低武荒山。各路大帝、聖女誤入此地，修為全被農場規則封印。冰雷女帝姬清月偷菜被俘淪為長工，魔宗聖女蘇幼微被擄來勞作，還有上...",
@@ -69,6 +1064,776 @@
       "url": "https://www.youtube.com/watch?v=IBK4jb_ysDE",
       "lastStatsFetchedAt": "2026-08-07T00:19:41.411Z",
       "durationSeconds": 8952
+    },
+    {
+      "id": "Q7B5bAvQWps",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《首席秘書要辭職，總裁慌了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T12:32:04Z",
+      "viewCount": 65,
+      "thumbnail": "https://i.ytimg.com/vi/Q7B5bAvQWps/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Q7B5bAvQWps",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2989
+    },
+    {
+      "id": "lVG-MMfSzs8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《硃砂吻》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T12:19:41Z",
+      "viewCount": 254,
+      "thumbnail": "https://i.ytimg.com/vi/lVG-MMfSzs8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lVG-MMfSzs8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8108
+    },
+    {
+      "id": "HzDqMwuFv8c",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全族託舉農門狀元郎》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T11:18:21Z",
+      "viewCount": 461,
+      "thumbnail": "https://i.ytimg.com/vi/HzDqMwuFv8c/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HzDqMwuFv8c",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7312
+    },
+    {
+      "id": "ryECiqkHsic",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全族託舉農門狀元郎》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T10:36:18Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/ryECiqkHsic/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ryECiqkHsic",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5790
+    },
+    {
+      "id": "Ka6OA_JASpY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《無敵帝夫，女帝的鹹魚丈夫他不裝了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T10:33:59Z",
+      "viewCount": 42,
+      "thumbnail": "https://i.ytimg.com/vi/Ka6OA_JASpY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ka6OA_JASpY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9646
+    },
+    {
+      "id": "in81gi52Ggc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《末世重生：我不做聖母》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T10:04:37Z",
+      "viewCount": 13,
+      "thumbnail": "https://i.ytimg.com/vi/in81gi52Ggc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=in81gi52Ggc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8144
+    },
+    {
+      "id": "kE9fR6NQlY8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《規矩是你定的》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T09:21:46Z",
+      "viewCount": 51,
+      "thumbnail": "https://i.ytimg.com/vi/kE9fR6NQlY8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kE9fR6NQlY8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3127
+    },
+    {
+      "id": "-doQULQoebY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《青青田園暖，歸鄉千金開荒養全村》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T08:52:29Z",
+      "viewCount": 279,
+      "thumbnail": "https://i.ytimg.com/vi/-doQULQoebY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-doQULQoebY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12833
+    },
+    {
+      "id": "Or2grsf3Hf4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《石老闆的食譜隨機刷新，客人饞瘋了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T08:30:34Z",
+      "viewCount": 101,
+      "thumbnail": "https://i.ytimg.com/vi/Or2grsf3Hf4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Or2grsf3Hf4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 19839
+    },
+    {
+      "id": "jbjpIwCOzB8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《玄門傳人下山即無敵》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T08:28:25Z",
+      "viewCount": 244,
+      "thumbnail": "https://i.ytimg.com/vi/jbjpIwCOzB8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jbjpIwCOzB8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10139
+    },
+    {
+      "id": "wXCnphMYuJk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《魏家逆子成首輔：黨爭篇》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T08:21:55Z",
+      "viewCount": 3187,
+      "thumbnail": "https://i.ytimg.com/vi/wXCnphMYuJk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wXCnphMYuJk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8369
+    },
+    {
+      "id": "Kzqbt5co8dA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《人已成首座，簽到無敵修為!》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T08:02:56Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/Kzqbt5co8dA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Kzqbt5co8dA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8172
+    },
+    {
+      "id": "xkUYpR3CmJs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《趕海養嫂！》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T06:07:45Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/xkUYpR3CmJs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xkUYpR3CmJs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7362
+    },
+    {
+      "id": "nzGAg4Yt144",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《神女渡眾生亂世賜糧安萬民》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T05:57:24Z",
+      "viewCount": 28,
+      "thumbnail": "https://i.ytimg.com/vi/nzGAg4Yt144/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nzGAg4Yt144",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8540
+    },
+    {
+      "id": "LJbnIzFWPno",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《紈絝郡主得寵日常：秦金枝》第10季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T05:18:49Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/LJbnIzFWPno/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LJbnIzFWPno",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8246
+    },
+    {
+      "id": "qXOgLum6hCQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《我靠趕海致富，全家悔不當初》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T05:10:03Z",
+      "viewCount": 19,
+      "thumbnail": "https://i.ytimg.com/vi/qXOgLum6hCQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qXOgLum6hCQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10196
+    },
+    {
+      "id": "yZ9CSP4TzXc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《小師妹五界第一，天才見她都破防》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T05:03:15Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/yZ9CSP4TzXc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yZ9CSP4TzXc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9260
+    },
+    {
+      "id": "w63e7Tzov0M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《嗩吶修仙，一曲炸翻修仙界》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T04:53:16Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/w63e7Tzov0M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=w63e7Tzov0M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8605
+    },
+    {
+      "id": "gR1Ld2ObfMY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，誰還裝富二代啊》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T04:41:44Z",
+      "viewCount": 19,
+      "thumbnail": "https://i.ytimg.com/vi/gR1Ld2ObfMY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gR1Ld2ObfMY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7238
+    },
+    {
+      "id": "Q8VM9ZyQCrQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《蘇憶穿書》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T04:03:59Z",
+      "viewCount": 293,
+      "thumbnail": "https://i.ytimg.com/vi/Q8VM9ZyQCrQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Q8VM9ZyQCrQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7992
+    },
+    {
+      "id": "RTQwoAv7vjM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《諸君且同行，劍育文策》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T02:41:24Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/RTQwoAv7vjM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=RTQwoAv7vjM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7429
+    },
+    {
+      "id": "Mw3JqAvhsxY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全員炮灰，靈龜師妹一劍祭長生》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T02:33:27Z",
+      "viewCount": 26,
+      "thumbnail": "https://i.ytimg.com/vi/Mw3JqAvhsxY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Mw3JqAvhsxY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7763
+    },
+    {
+      "id": "DF7IFzqn92Q",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《凡人修仙之一罐靈草到道祖》第10季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T02:22:13Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/DF7IFzqn92Q/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DF7IFzqn92Q",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6380
+    },
+    {
+      "id": "n4CNjnsK1p4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《山野奶爸，大力士老爸帶娃記》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T01:52:50Z",
+      "viewCount": 829,
+      "thumbnail": "https://i.ytimg.com/vi/n4CNjnsK1p4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=n4CNjnsK1p4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5561
+    },
+    {
+      "id": "Fm9ko6MP0pw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重逢在大院的夏天》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T01:50:47Z",
+      "viewCount": 12,
+      "thumbnail": "https://i.ytimg.com/vi/Fm9ko6MP0pw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Fm9ko6MP0pw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7355
+    },
+    {
+      "id": "QrpDKf52sQY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《被貶北涼的棄子，三年後十萬鐵騎兵臨城下》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T01:29:05Z",
+      "viewCount": 24,
+      "thumbnail": "https://i.ytimg.com/vi/QrpDKf52sQY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=QrpDKf52sQY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6954
+    },
+    {
+      "id": "PPBDQ013G7g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《百歲成真仙》第7季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T01:29:04Z",
+      "viewCount": 170,
+      "thumbnail": "https://i.ytimg.com/vi/PPBDQ013G7g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PPBDQ013G7g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3981
+    },
+    {
+      "id": "B-Su6WCaydo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《我惡名纏身，竟帶全家翻身致富》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T01:19:32Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/B-Su6WCaydo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=B-Su6WCaydo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8492
+    },
+    {
+      "id": "4T_XM8qKWlw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《閃婚的醫學年輕大佬是前男友室友》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T00:59:37Z",
+      "viewCount": 295,
+      "thumbnail": "https://i.ytimg.com/vi/4T_XM8qKWlw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4T_XM8qKWlw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8181
+    },
+    {
+      "id": "Bb1_H8fDDRk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《山裡來的小丫頭，專治都市不服》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T00:25:02Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/Bb1_H8fDDRk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Bb1_H8fDDRk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3399
+    },
+    {
+      "id": "qZfiXec0QWE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《大明，李景隆的別樣人生》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T00:21:16Z",
+      "viewCount": 65,
+      "thumbnail": "https://i.ytimg.com/vi/qZfiXec0QWE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qZfiXec0QWE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8431
+    },
+    {
+      "id": "aR0tX4mBJok",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《貧僧法海，普渡眾生！》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-04T00:04:49Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/aR0tX4mBJok/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aR0tX4mBJok",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5132
+    },
+    {
+      "id": "pHtbktyHPkY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《監獄食神》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T23:57:44Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/pHtbktyHPkY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pHtbktyHPkY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7965
+    },
+    {
+      "id": "A9PliCiczKM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《天降良緣：厭世王爺和他的續命小廚娘》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T23:49:39Z",
+      "viewCount": 100,
+      "thumbnail": "https://i.ytimg.com/vi/A9PliCiczKM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=A9PliCiczKM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8139
+    },
+    {
+      "id": "aVVye6ehTaA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《天才滿地跑，小師妹才是真大佬》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T23:34:16Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/aVVye6ehTaA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aVVye6ehTaA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7566
+    },
+    {
+      "id": "ZLSiNwOIv94",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全是國寶，你管這叫私人博物館》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T22:44:18Z",
+      "viewCount": 83,
+      "thumbnail": "https://i.ytimg.com/vi/ZLSiNwOIv94/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZLSiNwOIv94",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7243
+    },
+    {
+      "id": "w4NTxeQujcA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《君向瀟湘我赴西秦》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T22:38:40Z",
+      "viewCount": 369,
+      "thumbnail": "https://i.ytimg.com/vi/w4NTxeQujcA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=w4NTxeQujcA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5678
+    },
+    {
+      "id": "PlwELAN23QA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《奪回氣運後，真千金迴歸不忍了》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T22:26:48Z",
+      "viewCount": 47,
+      "thumbnail": "https://i.ytimg.com/vi/PlwELAN23QA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PlwELAN23QA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7684
+    },
+    {
+      "id": "-5hKFmd1rO8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全民召喚，骷髏兵自己考了劍聖》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T22:12:28Z",
+      "viewCount": 54,
+      "thumbnail": "https://i.ytimg.com/vi/-5hKFmd1rO8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-5hKFmd1rO8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4279
+    },
+    {
+      "id": "Ll9Ant7UkAk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《丫蛋來了：我真是一條好人》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T22:04:17Z",
+      "viewCount": 22,
+      "thumbnail": "https://i.ytimg.com/vi/Ll9Ant7UkAk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ll9Ant7UkAk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7463
+    },
+    {
+      "id": "jw1Ps6KFvVU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生醉酒歌王》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T21:56:49Z",
+      "viewCount": 46,
+      "thumbnail": "https://i.ytimg.com/vi/jw1Ps6KFvVU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jw1Ps6KFvVU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8298
+    },
+    {
+      "id": "ldyT6VtjWtY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《山河獨酌》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T21:56:30Z",
+      "viewCount": 69,
+      "thumbnail": "https://i.ytimg.com/vi/ldyT6VtjWtY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ldyT6VtjWtY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 13254
+    },
+    {
+      "id": "0AV6_W7xpHM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《燼九州》第10季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T21:38:32Z",
+      "viewCount": 151,
+      "thumbnail": "https://i.ytimg.com/vi/0AV6_W7xpHM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0AV6_W7xpHM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6449
+    },
+    {
+      "id": "fow1RAT2BvQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《別逼我修煉》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T21:03:04Z",
+      "viewCount": 126,
+      "thumbnail": "https://i.ytimg.com/vi/fow1RAT2BvQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fow1RAT2BvQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8978
+    },
+    {
+      "id": "0ngT3kcM4ts",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《爆笑修仙：師叔的法寶有點怪》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T20:51:08Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/0ngT3kcM4ts/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0ngT3kcM4ts",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6647
+    },
+    {
+      "id": "3u7Vn6xnyfw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《清冷大小姐她開兩個掛》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T20:19:30Z",
+      "viewCount": 52,
+      "thumbnail": "https://i.ytimg.com/vi/3u7Vn6xnyfw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3u7Vn6xnyfw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5645
+    },
+    {
+      "id": "GrrHG7KKS7g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《普通弓箭手？我能無限疊加攻擊力》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T20:07:58Z",
+      "viewCount": 1787,
+      "thumbnail": "https://i.ytimg.com/vi/GrrHG7KKS7g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GrrHG7KKS7g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7301
+    },
+    {
+      "id": "CW5B_-TpTv8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《甕葬法》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T19:59:50Z",
+      "viewCount": 8,
+      "thumbnail": "https://i.ytimg.com/vi/CW5B_-TpTv8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=CW5B_-TpTv8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8900
+    },
+    {
+      "id": "wiv3IwH18HE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一年升一境凡人修仙之外門雜役》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T19:35:58Z",
+      "viewCount": 12,
+      "thumbnail": "https://i.ytimg.com/vi/wiv3IwH18HE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wiv3IwH18HE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8695
+    },
+    {
+      "id": "LPfPEePccbk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《趕海：分水將軍賜我萬貫財》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T19:31:32Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/LPfPEePccbk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LPfPEePccbk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7859
+    },
+    {
+      "id": "Xjd_uDZK3W4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《醒轉天師：得到道家傳承後我終於發達了》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T19:03:26Z",
+      "viewCount": 880,
+      "thumbnail": "https://i.ytimg.com/vi/Xjd_uDZK3W4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Xjd_uDZK3W4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5600
+    },
+    {
+      "id": "25NhVtJzmKE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《芽芽荷包裡的煙火人間》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T18:47:35Z",
+      "viewCount": 37,
+      "thumbnail": "https://i.ytimg.com/vi/25NhVtJzmKE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=25NhVtJzmKE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 20295
+    },
+    {
+      "id": "v715SYKnXPg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《離婚認親啟新程》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T18:42:59Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/v715SYKnXPg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=v715SYKnXPg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7333
+    },
+    {
+      "id": "PtoWuMPZ3n8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《謝家小廚娘》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T18:30:19Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/PtoWuMPZ3n8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PtoWuMPZ3n8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7206
+    },
+    {
+      "id": "o8bbHJlGLc0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《四小姐不裝了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T18:07:53Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/o8bbHJlGLc0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=o8bbHJlGLc0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7381
+    },
+    {
+      "id": "byJ-HWlpWtI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《精神小妹也要修機甲嗎》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T17:04:01Z",
+      "viewCount": 466,
+      "thumbnail": "https://i.ytimg.com/vi/byJ-HWlpWtI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=byJ-HWlpWtI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7265
+    },
+    {
+      "id": "VE_aO5cxgZQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《嘉豪就變強？操場雨中舞劍開天門》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T16:55:05Z",
+      "viewCount": 209,
+      "thumbnail": "https://i.ytimg.com/vi/VE_aO5cxgZQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=VE_aO5cxgZQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7892
+    },
+    {
+      "id": "vNFCh6aviGE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《喪屍也是俺閨女》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T16:42:28Z",
+      "viewCount": 304,
+      "thumbnail": "https://i.ytimg.com/vi/vNFCh6aviGE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vNFCh6aviGE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4244
+    },
+    {
+      "id": "GOcLiCtdmLY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生覺醒，這次我不做戀愛腦》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T15:48:26Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/GOcLiCtdmLY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GOcLiCtdmLY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9243
+    },
+    {
+      "id": "hp4aGDcVgko",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《錯把閃婚老公的微信當成AI網戀》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T15:35:50Z",
+      "viewCount": 20,
+      "thumbnail": "https://i.ytimg.com/vi/hp4aGDcVgko/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hp4aGDcVgko",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4114
+    },
+    {
+      "id": "M_wbE3sxfKU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《血量億倍增幅，被當成廢物異能》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T15:19:40Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/M_wbE3sxfKU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=M_wbE3sxfKU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7400
+    },
+    {
+      "id": "dFbzZPzEmjs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《擺攤的我是絕世高手》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T14:26:35Z",
+      "viewCount": 75,
+      "thumbnail": "https://i.ytimg.com/vi/dFbzZPzEmjs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=dFbzZPzEmjs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8348
+    },
+    {
+      "id": "OA7J3tiTT5k",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一夢青玄，團寵小師妹一劍毀天滅地》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T13:22:54Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/OA7J3tiTT5k/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OA7J3tiTT5k",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10181
+    },
+    {
+      "id": "rT2EB5cPK0U",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《月慵便枕玉涼夢》第7季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T08:44:39Z",
+      "viewCount": 1301,
+      "thumbnail": "https://i.ytimg.com/vi/rT2EB5cPK0U/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=rT2EB5cPK0U",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8211
+    },
+    {
+      "id": "xBTTnHH0QmI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，誰還裝富二代啊》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T08:35:29Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/xBTTnHH0QmI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xBTTnHH0QmI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8104
+    },
+    {
+      "id": "3ZxHYHI5kto",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《嗩吶修仙，一曲炸翻修仙界》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T08:30:37Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/3ZxHYHI5kto/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3ZxHYHI5kto",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8183
+    },
+    {
+      "id": "5-YBWOoupq0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《予你深情侵入餘生》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T05:46:42Z",
+      "viewCount": 230,
+      "thumbnail": "https://i.ytimg.com/vi/5-YBWOoupq0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5-YBWOoupq0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8646
+    },
+    {
+      "id": "JGSgLX5ECDc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《燼九州》第7季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T05:11:54Z",
+      "viewCount": 567,
+      "thumbnail": "https://i.ytimg.com/vi/JGSgLX5ECDc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JGSgLX5ECDc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5866
+    },
+    {
+      "id": "oWsdQuQEtN0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《覺醒十殿閻羅吾即是紅傘鬼仙》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T04:39:50Z",
+      "viewCount": 434,
+      "thumbnail": "https://i.ytimg.com/vi/oWsdQuQEtN0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oWsdQuQEtN0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10626
+    },
+    {
+      "id": "kqhNEfHU9Nk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《母親是巨龍我咋是山海異獸呢》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-03T03:01:17Z",
+      "viewCount": 45,
+      "thumbnail": "https://i.ytimg.com/vi/kqhNEfHU9Nk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=kqhNEfHU9Nk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6222
     },
     {
       "id": "adNKcaAgMZI",
@@ -247,6 +2012,28 @@
       "durationSeconds": 10732
     },
     {
+      "id": "io2nxPajhjw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《帥府福崽，卯卯駕到》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T02:52:44Z",
+      "viewCount": 4448,
+      "thumbnail": "https://i.ytimg.com/vi/io2nxPajhjw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=io2nxPajhjw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7359
+    },
+    {
+      "id": "BY3Kc6t1BvQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《胎珠傳》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T01:36:42Z",
+      "viewCount": 588,
+      "thumbnail": "https://i.ytimg.com/vi/BY3Kc6t1BvQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BY3Kc6t1BvQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11831
+    },
+    {
       "id": "wLHpFoR7HkY",
       "channelHandle": "aiStory008_01",
       "title": "剛認親就流放，悍女廢土造糧倉第二季【全集4K】小太陽成長型女主。剛認親成真千金就流放西北？姜六六直呼老天爺你玩我呢？黃土地裡只能吃土？小麥土豆玉米讓人頓頓吃飽飯。天災乾旱只能餓死？莜麥蕎麥糜子，...",
@@ -256,6 +2043,204 @@
       "url": "https://www.youtube.com/watch?v=wLHpFoR7HkY",
       "lastStatsFetchedAt": "2026-08-02T19:39:09.165Z",
       "durationSeconds": 5658
+    },
+    {
+      "id": "oD-58-OofWQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生覺醒，這次我不做戀愛腦》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T01:27:07Z",
+      "viewCount": 84,
+      "thumbnail": "https://i.ytimg.com/vi/oD-58-OofWQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oD-58-OofWQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10775
+    },
+    {
+      "id": "jX7Zqd5f1fQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《紈絝郡主得寵日常：秦金枝》第9季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T01:26:58Z",
+      "viewCount": 17,
+      "thumbnail": "https://i.ytimg.com/vi/jX7Zqd5f1fQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jX7Zqd5f1fQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7646
+    },
+    {
+      "id": "LH0BRHLWaWw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《宿雪歸離第三季:一紙契緣縛白髮》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T00:33:48Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/LH0BRHLWaWw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LH0BRHLWaWw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5955
+    },
+    {
+      "id": "5Nawe4e_GO0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《青梅是隻漁，他只哄我一人》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T00:26:35Z",
+      "viewCount": 19,
+      "thumbnail": "https://i.ytimg.com/vi/5Nawe4e_GO0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5Nawe4e_GO0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7514
+    },
+    {
+      "id": "K-zoiIY7pvM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《墨禾向暖，歲月清和》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T00:14:24Z",
+      "viewCount": 262,
+      "thumbnail": "https://i.ytimg.com/vi/K-zoiIY7pvM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=K-zoiIY7pvM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3235
+    },
+    {
+      "id": "mERHC4yFj28",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《覺醒十殿閻羅吾即是紅傘鬼仙》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T00:05:05Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/mERHC4yFj28/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mERHC4yFj28",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10579
+    },
+    {
+      "id": "Na5AUfqxkCw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《天羽壽元》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-02T00:03:37Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/Na5AUfqxkCw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Na5AUfqxkCw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7446
+    },
+    {
+      "id": "XoO-f9ZWAQg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《萬妖圖錄傳》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T23:41:44Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/XoO-f9ZWAQg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XoO-f9ZWAQg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9633
+    },
+    {
+      "id": "ZPHz9_Sx9UY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《無限分身：從撐死S級異獸開始》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T23:19:03Z",
+      "viewCount": 31,
+      "thumbnail": "https://i.ytimg.com/vi/ZPHz9_Sx9UY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZPHz9_Sx9UY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11045
+    },
+    {
+      "id": "aPUwBRLDP9g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《開局大帝：我的弟子全是逆天體質》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T23:11:11Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/aPUwBRLDP9g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aPUwBRLDP9g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11833
+    },
+    {
+      "id": "fEFY0N1Fi8k",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《開學那天，我被當成傳說》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T22:21:17Z",
+      "viewCount": 54,
+      "thumbnail": "https://i.ytimg.com/vi/fEFY0N1Fi8k/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fEFY0N1Fi8k",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7506
+    },
+    {
+      "id": "jb8rIN6GW0k",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《錯過了校花，沒錯過她》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T22:16:48Z",
+      "viewCount": 8,
+      "thumbnail": "https://i.ytimg.com/vi/jb8rIN6GW0k/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jb8rIN6GW0k",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7346
+    },
+    {
+      "id": "ykcIvrlt1og",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《凡人修仙，撿個仙子做老婆》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T22:01:20Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/ykcIvrlt1og/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ykcIvrlt1og",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8965
+    },
+    {
+      "id": "TyKABCIZY44",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《穿越古代寒冬，一口鐵鍋預知天災》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T21:45:15Z",
+      "viewCount": 24,
+      "thumbnail": "https://i.ytimg.com/vi/TyKABCIZY44/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TyKABCIZY44",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3106
+    },
+    {
+      "id": "sej9xkJXmrY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《末日小餐館，喪屍排隊來吃飯》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T21:30:00Z",
+      "viewCount": 53,
+      "thumbnail": "https://i.ytimg.com/vi/sej9xkJXmrY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sej9xkJXmrY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8053
+    },
+    {
+      "id": "OL8wEotl-3Q",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《誰說沒靈根不能修仙的？之無靈證道》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T21:18:02Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/OL8wEotl-3Q/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OL8wEotl-3Q",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7341
+    },
+    {
+      "id": "igWG1Fp95BQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《九淵》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T21:16:40Z",
+      "viewCount": 3,
+      "thumbnail": "https://i.ytimg.com/vi/igWG1Fp95BQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=igWG1Fp95BQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2909
+    },
+    {
+      "id": "N7acN2aCM50",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《夢幻農場》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T21:11:10Z",
+      "viewCount": 52,
+      "thumbnail": "https://i.ytimg.com/vi/N7acN2aCM50/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=N7acN2aCM50",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6244
     },
     {
       "id": "k5i8hPUflH8",
@@ -269,6 +2254,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "XotKs_1fto4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《靠山吃飯，我能獲取獵物天賦》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T20:45:04Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/XotKs_1fto4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XotKs_1fto4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8649
+    },
+    {
+      "id": "a9ykSHkBl6M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《予你深情侵入餘生》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T20:42:17Z",
+      "viewCount": 26,
+      "thumbnail": "https://i.ytimg.com/vi/a9ykSHkBl6M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a9ykSHkBl6M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6935
+    },
+    {
       "id": "2l3nV1RiV40",
       "title": "諸君且同行，劍育文策第二季【全集4K】許知行創辦學堂，收徒就能獲得返饋，他一路收取眾多弟子，可弟子們個個身份古怪，有亡國的皇室子孫，有被朝廷追殺的宗門聖女。時間流逝，學子們一個個要告別學堂，去實...",
       "publishedAt": "2026-08-01T20:21:18Z",
@@ -280,6 +2287,72 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "26JPqk1HBSc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一劍挽仙洲》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T19:47:59Z",
+      "viewCount": 24,
+      "thumbnail": "https://i.ytimg.com/vi/26JPqk1HBSc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=26JPqk1HBSc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9279
+    },
+    {
+      "id": "NsVQhMtQON0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《從前說：炊煙笑過桃花村》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T19:45:53Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/NsVQhMtQON0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NsVQhMtQON0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7228
+    },
+    {
+      "id": "A9OtaiiAnZg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《田野之上的新生，青青田園暖》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T19:26:10Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/A9OtaiiAnZg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=A9OtaiiAnZg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7593
+    },
+    {
+      "id": "6IiVaXg1moE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《寒途微光》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T19:08:45Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/6IiVaXg1moE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6IiVaXg1moE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3102
+    },
+    {
+      "id": "5aU6aGRCK8I",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《夫妻本是同林鳥》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T18:56:26Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/5aU6aGRCK8I/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5aU6aGRCK8I",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8303
+    },
+    {
+      "id": "MzJgXcAzftk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《冰冷重遇》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T18:54:45Z",
+      "viewCount": 11,
+      "thumbnail": "https://i.ytimg.com/vi/MzJgXcAzftk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=MzJgXcAzftk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4050
+    },
+    {
       "id": "SWygbaJyp2Q",
       "title": "仙子別動手，聽我解釋第二季【全集4K】穿越者許平秋在天墟宗修行，隨慕語禾學劍、樂臨清練身法，夜間靠二人靈力互哺掛機修煉。慕語贈白龍逆鱗，送他入滿十二強敵的死亡幻境，他反覆被殺磨礪自身。他察覺純陽...",
       "publishedAt": "2026-08-01T18:42:24Z",
@@ -289,6 +2362,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7385,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "gTv7AlWphbY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《說好獎金對半分，你全要》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T18:38:28Z",
+      "viewCount": 36,
+      "thumbnail": "https://i.ytimg.com/vi/gTv7AlWphbY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gTv7AlWphbY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7431
     },
     {
       "id": "Choqcv2jZ4w",
@@ -324,6 +2408,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "91gqFmPKuAM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《傻女重生記，睜眼後蓋房發家》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T17:28:55Z",
+      "viewCount": 3220,
+      "thumbnail": "https://i.ytimg.com/vi/91gqFmPKuAM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=91gqFmPKuAM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9985
+    },
+    {
       "id": "NonLmcjYVAI",
       "title": "嗩吶修仙，一曲炸翻修仙界第三季【全集4K】雲柒柒意外穿越到修仙界，面對人人努力修煉的環境，她依舊想按自己的節奏生活。選修時，她覺得音修最適合自己，沒想到專屬法器竟是一把嗩吶。從此，原本清雅安靜的...",
       "publishedAt": "2026-08-01T17:28:50Z",
@@ -333,6 +2428,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 8185,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "nrRd4SbT0Yc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《駝駝的怪物攻略》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T17:24:47Z",
+      "viewCount": 24,
+      "thumbnail": "https://i.ytimg.com/vi/nrRd4SbT0Yc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nrRd4SbT0Yc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4392
+    },
+    {
+      "id": "a59MAXDe6vI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《買的破車通三國，現代牛馬闖東漢》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T17:11:46Z",
+      "viewCount": 1610,
+      "thumbnail": "https://i.ytimg.com/vi/a59MAXDe6vI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a59MAXDe6vI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11860
     },
     {
       "id": "uYeIndKI38E",
@@ -368,6 +2485,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "WClUageYLTA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重生八零！從撿蘑菇開始》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T16:38:18Z",
+      "viewCount": 38,
+      "thumbnail": "https://i.ytimg.com/vi/WClUageYLTA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WClUageYLTA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7570
+    },
+    {
       "id": "RozoB-ByaJA",
       "title": "掌天仙葫第三季【全集4K】青雲門雜役弟子蘇凡，機緣巧合之下獲得一枚綠皮葫蘆，從此踏上仙途。下品靈露放入葫蘆內能變為傳說中的極品。將廢棄丹藥，放入葫蘆內變成極品丹藥。靈草，符籙，功法放入其中皆可強...",
       "publishedAt": "2026-08-01T15:58:18Z",
@@ -377,6 +2505,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6324,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "fjgPiCYu6sE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《掌天仙葫》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T15:34:11Z",
+      "viewCount": 38,
+      "thumbnail": "https://i.ytimg.com/vi/fjgPiCYu6sE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fjgPiCYu6sE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6323
+    },
+    {
+      "id": "HrRPrJgzASo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一夢青玄，團寵小師妹一劍毀天滅地》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T15:04:11Z",
+      "viewCount": 34,
+      "thumbnail": "https://i.ytimg.com/vi/HrRPrJgzASo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HrRPrJgzASo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9537
     },
     {
       "id": "9ufWyc8_e_w",
@@ -676,6 +2826,39 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "qMi2vNuA7To",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《帥府卯卯3福星奶團來旺家，帥府全家寵不停》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T03:35:59Z",
+      "viewCount": 17,
+      "thumbnail": "https://i.ytimg.com/vi/qMi2vNuA7To/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qMi2vNuA7To",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4755
+    },
+    {
+      "id": "KipEGoGGM6w",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《道印入體：得到道家傳承後我終於發達了》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T03:20:06Z",
+      "viewCount": 34,
+      "thumbnail": "https://i.ytimg.com/vi/KipEGoGGM6w/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KipEGoGGM6w",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 13347
+    },
+    {
+      "id": "Og7lU87TBF8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《小師妹五界第一，天才見她都破防》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T02:09:41Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/Og7lU87TBF8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Og7lU87TBF8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7570
+    },
+    {
       "id": "K8vVrtsxSUU",
       "title": "歸泱第二季【全集4K】自藍星歸來，夜泱泱甫入元央界便遭上界強敵兵臨山門。師尊重傷，宗門崩塌，她在絕境中刨開塵封舊事，驚覺前世竟是執掌空間權柄的遠古神祇。而這片天地從無真正天道——飛昇、修行、規則...",
       "publishedAt": "2026-08-01T01:56:54Z",
@@ -696,6 +2879,39 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7464,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "asKbX_EH84E",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《颱風天收生蠔，他們卻說我黑心》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T01:31:32Z",
+      "viewCount": 48,
+      "thumbnail": "https://i.ytimg.com/vi/asKbX_EH84E/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=asKbX_EH84E",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2924
+    },
+    {
+      "id": "J4D2LAieSUo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《遲遇清歡》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T01:21:41Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/J4D2LAieSUo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=J4D2LAieSUo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6283
+    },
+    {
+      "id": "yGvxPVpHh4E",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《餘生逢玉伴心安》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T01:10:59Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/yGvxPVpHh4E/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yGvxPVpHh4E",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4187
     },
     {
       "id": "Dc3F5GVnd8U",
@@ -753,6 +2969,61 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "-pnUeCuD3sk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《前生給你尊榮你不要，來世我去娶郡主》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-08-01T00:04:09Z",
+      "viewCount": 4,
+      "thumbnail": "https://i.ytimg.com/vi/-pnUeCuD3sk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-pnUeCuD3sk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7215
+    },
+    {
+      "id": "bLjHZN5IPWg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《道印入體：得到道家傳承後我終於發達了》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T23:53:35Z",
+      "viewCount": 28,
+      "thumbnail": "https://i.ytimg.com/vi/bLjHZN5IPWg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bLjHZN5IPWg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12718
+    },
+    {
+      "id": "O5vLpzNQoqI",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《遲愛也很甜》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T23:46:32Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/O5vLpzNQoqI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O5vLpzNQoqI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7263
+    },
+    {
+      "id": "EMUF9anO8oA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《冰冷重遇》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T23:38:27Z",
+      "viewCount": 25,
+      "thumbnail": "https://i.ytimg.com/vi/EMUF9anO8oA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EMUF9anO8oA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3732
+    },
+    {
+      "id": "6qVXVeoTXoY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《福寶花捲致富：我的小吃店通古今》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T23:36:17Z",
+      "viewCount": 1479,
+      "thumbnail": "https://i.ytimg.com/vi/6qVXVeoTXoY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6qVXVeoTXoY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7878
+    },
+    {
       "id": "52FCnmXIoOA",
       "title": "咱家劍宗團寵小師妹第三季【全集4K】半魔血統的混沌靈脩士扶顰，出身資源匱乏的魔界，遠赴修仙界投奔生母，卻因表面五靈根資質被頂級宗門清雲宗拒之門外。走投無路之際，她被修仙界戰力頂尖、唯獨財力墊底的...",
       "publishedAt": "2026-07-31T23:07:10Z",
@@ -762,6 +3033,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 8905,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "0pOGOWbemIw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《美人瘋骨之權謀主母惹不起》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T22:47:48Z",
+      "viewCount": 26,
+      "thumbnail": "https://i.ytimg.com/vi/0pOGOWbemIw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0pOGOWbemIw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7847
     },
     {
       "id": "yuQVT_wQfDk",
@@ -775,6 +3057,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "oqSFmWp6Xh4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《裝窮回家，親戚悔青腸子》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T22:30:23Z",
+      "viewCount": 3,
+      "thumbnail": "https://i.ytimg.com/vi/oqSFmWp6Xh4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oqSFmWp6Xh4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8485
+    },
+    {
+      "id": "r_L8rjWfs9g",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《保姆心聲，陸家保命指南》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T22:18:03Z",
+      "viewCount": 34,
+      "thumbnail": "https://i.ytimg.com/vi/r_L8rjWfs9g/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=r_L8rjWfs9g",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2713
+    },
+    {
       "id": "8I86YB98IBk",
       "title": "魔鼠執刀，護龍土第三季【全集4K】少年吳生自幼與爺爺奶奶相依為命，性格堅韌懂事。他一邊靠自己的力量照料家人、認真生活，一邊以進化者的身份默默守護城市安寧。面對身世相關的親人，他保持分寸與善意，在...",
       "publishedAt": "2026-07-31T22:17:46Z",
@@ -784,6 +3088,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7219,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "uXJHh0kyOYc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《殺戮崛起之永夜君王》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T21:59:30Z",
+      "viewCount": 89,
+      "thumbnail": "https://i.ytimg.com/vi/uXJHh0kyOYc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=uXJHh0kyOYc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5083
+    },
+    {
+      "id": "Y36cL64es-8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重回八零，趕山狩獵養妻女》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T21:50:08Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/Y36cL64es-8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Y36cL64es-8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7227
     },
     {
       "id": "O5Bkd267BNE",
@@ -797,6 +3123,39 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "SKaH2p2Lk1M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，誰還裝富二代啊》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T21:30:24Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/SKaH2p2Lk1M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SKaH2p2Lk1M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7575
+    },
+    {
+      "id": "drmjc_EqBI4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《怒海揚帆，乘風破浪》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T20:50:34Z",
+      "viewCount": 573,
+      "thumbnail": "https://i.ytimg.com/vi/drmjc_EqBI4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=drmjc_EqBI4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9233
+    },
+    {
+      "id": "c1e3fGEtVBQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《硃砂吻》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T20:46:22Z",
+      "viewCount": 42,
+      "thumbnail": "https://i.ytimg.com/vi/c1e3fGEtVBQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=c1e3fGEtVBQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11198
+    },
+    {
       "id": "hIegRmvN62k",
       "title": "歸芯第二季【全集4K】新世紀青年穿越至1955年的歸國留洋學生，成了與錢老同一批郵輪歸國者。原本24人的名單，竟莫名多了他一人。為了不暴露自己是水貨學生，起初在同船輪渡都不敢交流，工作分配也主動...",
       "publishedAt": "2026-07-31T20:39:26Z",
@@ -808,6 +3167,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "wQwEJKaVsPs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《山野奶爸，大力士老爸帶娃記》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T20:26:04Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/wQwEJKaVsPs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wQwEJKaVsPs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7516
+    },
+    {
       "id": "SCWcB3ptBHM",
       "title": "逆江湖！第一季【全集4K】少年賞金客顧十一因一場意外得罪梅長宮與宋家。為給妹妹孽孽買藥，他領取懸賞、典當身世銀刀，卻因此引來官府、世家與江湖高手的圍堵。當孽孽被抓，顧十一不再隱藏實力，以七品武師...",
       "publishedAt": "2026-07-31T20:09:40Z",
@@ -817,6 +3187,39 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 8952,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "JweR4wAhTz0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《農村獸神》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T20:01:46Z",
+      "viewCount": 143,
+      "thumbnail": "https://i.ytimg.com/vi/JweR4wAhTz0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=JweR4wAhTz0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7735
+    },
+    {
+      "id": "8FpSj5yc4fg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一碗麵的良心價》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:51:14Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/8FpSj5yc4fg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8FpSj5yc4fg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 1872
+    },
+    {
+      "id": "lIwHnyGrMDM",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《月慵便枕玉涼夢》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:47:02Z",
+      "viewCount": 283,
+      "thumbnail": "https://i.ytimg.com/vi/lIwHnyGrMDM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lIwHnyGrMDM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7437
     },
     {
       "id": "JYx7yv1auvs",
@@ -839,6 +3242,61 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 4495,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "0ttloxXj9qA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《開局青雲宗主召喚大帝境老祖（第六季）》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:19:26Z",
+      "viewCount": 86,
+      "thumbnail": "https://i.ytimg.com/vi/0ttloxXj9qA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0ttloxXj9qA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8328
+    },
+    {
+      "id": "WuP1-1qEiwA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《萬妖圖錄傳》第9季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:13:24Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/WuP1-1qEiwA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WuP1-1qEiwA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9312
+    },
+    {
+      "id": "UAN4mX0jvWE",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《義父們送我上大學》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:09:48Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/UAN4mX0jvWE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UAN4mX0jvWE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2319
+    },
+    {
+      "id": "Ni7I29C1teQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《村裡來了只白骨精》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:08:53Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/Ni7I29C1teQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ni7I29C1teQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4130
+    },
+    {
+      "id": "6m9HZjpadGY",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《偷不走的愛與光》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T19:05:09Z",
+      "viewCount": 44,
+      "thumbnail": "https://i.ytimg.com/vi/6m9HZjpadGY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6m9HZjpadGY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9254
     },
     {
       "id": "K9TrxZ4xbkM",
@@ -874,6 +3332,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "_T09toKFq50",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《許我餘生長暖孤夜》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:55:19Z",
+      "viewCount": 16,
+      "thumbnail": "https://i.ytimg.com/vi/_T09toKFq50/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_T09toKFq50",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7363
+    },
+    {
       "id": "VUFKqZDnFSE",
       "title": "墨禾向暖，歲月清和【全集4K】沈墨禾結束半年海外交換歸國，發現相戀三年的男友謝淮之與閨蜜江舒越界，自己籌備一年的進脩名額也被謝淮之擅自轉給江舒。積攢的失望徹底爆發，她冷靜提出分手，辭職離開公司，...",
       "publishedAt": "2026-07-31T17:50:19Z",
@@ -883,6 +3352,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 3236,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "uM_1RA1_1zU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《凡人仙葫》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:50:02Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/uM_1RA1_1zU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=uM_1RA1_1zU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12383
     },
     {
       "id": "_gPGIs2a9Wk",
@@ -896,6 +3376,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "38je6EhQUIw",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，這富二代我不裝了》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:46:27Z",
+      "viewCount": 157,
+      "thumbnail": "https://i.ytimg.com/vi/38je6EhQUIw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=38je6EhQUIw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9912
+    },
+    {
+      "id": "1D5MXEQqFzc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《母親是巨龍我咋是山海異獸呢？》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:39:05Z",
+      "viewCount": 117,
+      "thumbnail": "https://i.ytimg.com/vi/1D5MXEQqFzc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1D5MXEQqFzc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8910
+    },
+    {
       "id": "0iCu8ZhFfh0",
       "title": "凡人修仙之一罐靈草到道祖第十季【全集4K】下了火雲峰，舒寒得知青雷宗結丹長老只為監視火雲剎那，並非專門針對自己，稍稍安心，卻察覺掌門宋經綸面對襲殺之事神色怪異、暗藏隱秘，心生忌憚。宋長衣因宗門受...",
       "publishedAt": "2026-07-31T17:32:14Z",
@@ -905,6 +3407,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6380,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "9nSOKzVvmZ0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《咱家劍宗團寵小師妹》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:25:46Z",
+      "viewCount": 610,
+      "thumbnail": "https://i.ytimg.com/vi/9nSOKzVvmZ0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9nSOKzVvmZ0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8871
     },
     {
       "id": "0NWMvSKCw2s",
@@ -918,6 +3431,39 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "vnlZVLl_VhU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《山海顯聖》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:10:59Z",
+      "viewCount": 458,
+      "thumbnail": "https://i.ytimg.com/vi/vnlZVLl_VhU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vnlZVLl_VhU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 14194
+    },
+    {
+      "id": "j1LkkLycs_o",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《傻女重生記，睜眼後蓋房發家》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:04:36Z",
+      "viewCount": 17,
+      "thumbnail": "https://i.ytimg.com/vi/j1LkkLycs_o/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=j1LkkLycs_o",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6837
+    },
+    {
+      "id": "9jo9UIeABcs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《開學那天,我被當成傳說》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T17:01:04Z",
+      "viewCount": 786,
+      "thumbnail": "https://i.ytimg.com/vi/9jo9UIeABcs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9jo9UIeABcs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7864
+    },
+    {
       "id": "JFZC4_gpFuU",
       "title": "太玄胎珠傳第四季【全集4K】萬年無法修煉的陳長安被師父掃地出門，攜神獸麒麟迴歸沒落陳家，憑藉九顆伴生胎珠開啟逆天修煉之路。他帶領家族重鑄榮光，培養天才後輩，結識鳳凰仙體的顧仙兒，在天地人三榜現世...",
       "publishedAt": "2026-07-31T17:00:57Z",
@@ -929,6 +3475,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "5x55RPJCIUk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《帥府福崽，卯卯駕到》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T16:43:45Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/5x55RPJCIUk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5x55RPJCIUk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7483
+    },
+    {
       "id": "ryNEmgWc11w",
       "title": "凡人御狐傳：我的靈寵會變異第一季【全集4K】楚少野揹負血海深仇，十二歲檢測靈主資質時，他本擁有遠超常人的靈主天賦，卻只召出一隻天賦上限為三階的無垢狐。世人斷言，他終身無法成為高階靈主，無垢狐只配...",
       "publishedAt": "2026-07-31T16:25:12Z",
@@ -938,6 +3495,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7730,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "WQYlJrFfE2A",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《重回千禧我靠趕海養活家人》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T15:57:45Z",
+      "viewCount": 39,
+      "thumbnail": "https://i.ytimg.com/vi/WQYlJrFfE2A/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WQYlJrFfE2A",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11347
+    },
+    {
+      "id": "WgziKtPILOo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《全班修仙歸來，你們元嬰我大乘》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T15:57:10Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/WgziKtPILOo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WgziKtPILOo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9348
     },
     {
       "id": "2Wa5k6MeU_E",
@@ -971,6 +3550,39 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 9425,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "Ta2_4KRpNuo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《傅總，您的三歲小債主上門了》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T15:08:40Z",
+      "viewCount": 79,
+      "thumbnail": "https://i.ytimg.com/vi/Ta2_4KRpNuo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ta2_4KRpNuo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7272
+    },
+    {
+      "id": "a6Y_686ZUvc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《彩運照人心》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T15:02:31Z",
+      "viewCount": 339,
+      "thumbnail": "https://i.ytimg.com/vi/a6Y_686ZUvc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a6Y_686ZUvc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7830
+    },
+    {
+      "id": "npPsjHdqggQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《都重生了，誰還裝富二代啊》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T14:48:00Z",
+      "viewCount": 77,
+      "thumbnail": "https://i.ytimg.com/vi/npPsjHdqggQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=npPsjHdqggQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8815
     },
     {
       "id": "G9nYXTxwLrE",
@@ -1116,6 +3728,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "jR9wuLLiYYk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《瘋娘逆襲，穿越寵崽！》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T10:56:49Z",
+      "viewCount": 20,
+      "thumbnail": "https://i.ytimg.com/vi/jR9wuLLiYYk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jR9wuLLiYYk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8071
+    },
+    {
       "id": "HGKJbijqqQE",
       "title": "別逼我修煉第四季【全集4K】許閒一人闖蕩魔淵，魔神們因責怪大小祭司丟失能翻譯太初魔文的白忙，引發魔神大戰！許閒得神器碧虛鏡，鎮壓諸魔神，解救大小祭司於水火之中。成為魔子攢夠陰魂石，鑄劍樓，取神劍...",
       "publishedAt": "2026-07-31T10:43:28Z",
@@ -1191,6 +3814,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7198,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "yyyAFvnMbKA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《傻相公，藏不住了》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T08:01:30Z",
+      "viewCount": 45,
+      "thumbnail": "https://i.ytimg.com/vi/yyyAFvnMbKA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yyyAFvnMbKA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3688
     },
     {
       "id": "a2L-_8l5VWs",
@@ -1314,6 +3948,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "_M2r2R2eHD4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《一劍挽仙洲》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T05:16:32Z",
+      "viewCount": 27,
+      "thumbnail": "https://i.ytimg.com/vi/_M2r2R2eHD4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=_M2r2R2eHD4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10352
+    },
+    {
       "id": "eeeqbmefyXY",
       "title": "冰冷重遇第四季【全集4K】三年前一場誤會，蘇沐妍選擇逃婚，與顧景琛一別兩散。時隔三年，她回國守好祖父留下的繁星集團，卻接連遭遇對手算計，深陷商業奪權風波。昔日舊人再度相逢，誤會重重，蘇沐妍認定顧...",
       "publishedAt": "2026-07-31T05:04:21Z",
@@ -1347,6 +3992,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "HqIzEsKddM4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《冰冷重遇》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T04:31:07Z",
+      "viewCount": 426,
+      "thumbnail": "https://i.ytimg.com/vi/HqIzEsKddM4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HqIzEsKddM4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4256
+    },
+    {
       "id": "8DPgN2OGhsQ",
       "title": "重生覺醒，這次我不做戀愛腦【全集4K】林霧死後才知道，自己只是小說裡為男女主愛情鋪路的惡毒女配，還因執念害得全家慘淡收場。重活一世，她決定遠離渣男，拯救家人，卻意外靠近了貧窮寡言的徐京妄。她以為...",
       "publishedAt": "2026-07-31T04:21:12Z",
@@ -1369,6 +4025,50 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "FIC1WIDUXIk",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《誤入詭宗成團寵》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T03:37:14Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/FIC1WIDUXIk/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FIC1WIDUXIk",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3908
+    },
+    {
+      "id": "jXjciuZrPV0",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《長生獄主，一念鎮九幽》第1~4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T02:37:45Z",
+      "viewCount": 37,
+      "thumbnail": "https://i.ytimg.com/vi/jXjciuZrPV0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=jXjciuZrPV0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 36964
+    },
+    {
+      "id": "Np_JMOU59Z4",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番《狼祭》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T02:25:26Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/Np_JMOU59Z4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Np_JMOU59Z4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2749
+    },
+    {
+      "id": "O-UeF61lj4o",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《全球躲貓貓：到底誰才是詭異啊！》第3季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T01:54:36Z",
+      "viewCount": 291,
+      "thumbnail": "https://i.ytimg.com/vi/O-UeF61lj4o/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O-UeF61lj4o",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7736
+    },
+    {
       "id": "h5b70EhOWwY",
       "title": "星際神明【全集4K】星際邪種橫行，異域神明獨佔信仰，穿越而來的聞妙痛心華夏諸神銷聲匿跡，意外解鎖神明覆蘇系統，開局綁定哪吒。風火輪踏碎危機，火尖槍掃盡邪祟。楊戩、太乙、上古眾神接連現世護她，隨她...",
       "publishedAt": "2026-07-31T01:23:57Z",
@@ -1389,6 +4089,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 3714,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "A7ZoC9q3tEw",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《穿成南方古猿，生存百萬年！》第2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-31T01:18:24Z",
+      "viewCount": 38,
+      "thumbnail": "https://i.ytimg.com/vi/A7ZoC9q3tEw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=A7ZoC9q3tEw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 1902
     },
     {
       "id": "XUylBPC1UiU",
@@ -1457,6 +4168,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "CfWZEAL8o58",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《九惡妃每日一問，陛下駕崩了嗎？》第1~2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T23:06:21Z",
+      "viewCount": 41,
+      "thumbnail": "https://i.ytimg.com/vi/CfWZEAL8o58/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=CfWZEAL8o58",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 17832
+    },
+    {
       "id": "AKBhlxYHLzQ",
       "title": "趕海：撿個福寶釣滿倉【全集4K】失業青年林於落魄返鄉，在媽祖廟醉倒後意外得到一根通靈鎏金魚竿，順手撿回一個四歲奶娃，誰承想，這娃竟是自己四年前在魔都意外留下的親生女兒蓓蓓。從此，他的人生像被開了...",
       "publishedAt": "2026-07-30T23:05:58Z",
@@ -1477,6 +4199,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 1232,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "Ha3d8CWFnfY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《逆江湖！》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T22:50:38Z",
+      "viewCount": 39,
+      "thumbnail": "https://i.ytimg.com/vi/Ha3d8CWFnfY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Ha3d8CWFnfY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8950
     },
     {
       "id": "vzR3e3QNZ6E",
@@ -1512,6 +4245,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "GV2eCcG4JM8",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《殺戮都市之殺戮崛起》第1~5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T21:49:58Z",
+      "viewCount": 391,
+      "thumbnail": "https://i.ytimg.com/vi/GV2eCcG4JM8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GV2eCcG4JM8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 26234
+    },
+    {
       "id": "9V_opOOT2XQ",
       "title": "穿成數學52分學渣，清北學神笑出聲【全集4K】北大數學天才江念意外離世，魂魄遊蕩一年後，附身於高三學生林晚予。她接管身體後，在課堂上展現出驚人天賦，一路斬獲省賽冠軍，更被張遠山教授認出——那熟悉...",
       "publishedAt": "2026-07-30T21:48:21Z",
@@ -1532,6 +4276,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 5099,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "3I5B-L6nyQs",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《領主：每天每人給我一金幣！》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T21:14:22Z",
+      "viewCount": 239,
+      "thumbnail": "https://i.ytimg.com/vi/3I5B-L6nyQs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3I5B-L6nyQs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7356
     },
     {
       "id": "MsMXpFhshws",
@@ -1556,6 +4311,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "GJwEm4rx2qQ",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《道印入體：得到道家傳承後我終於發達了》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T20:37:12Z",
+      "viewCount": 44,
+      "thumbnail": "https://i.ytimg.com/vi/GJwEm4rx2qQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GJwEm4rx2qQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 13346
+    },
+    {
       "id": "_gufJcxJi74",
       "title": "醫女風華：流放之路第二季【全集4K】流放之路殺機四伏！天災鼠疫、皇家死士接踵而至。赫知冉的隨身空間逆天升級，降維打擊！妙手解蠱，救回被煉成傀儡的戰死兄長；揭開墨家時代流傳的胎記的驚天秘聞！看神醫...",
       "publishedAt": "2026-07-30T20:29:54Z",
@@ -1565,6 +4331,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 8621,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "hj6AhEYiuqA",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《全球躲貓貓：到底誰才是詭異啊！》第1~2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T20:23:36Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/hj6AhEYiuqA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hj6AhEYiuqA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12331
     },
     {
       "id": "7FHUkOLXLe0",
@@ -1589,6 +4366,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "0582hVqjyec",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《穿成炮灰後：不是反派嗎？怎麼要抱抱》第6季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T19:45:12Z",
+      "viewCount": 59,
+      "thumbnail": "https://i.ytimg.com/vi/0582hVqjyec/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0582hVqjyec",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3530
+    },
+    {
       "id": "uRcvsj-6A8Q",
       "title": "天狐神女：涅槃歸來第二季【全集4K】天梯崩塌，天界神女蒼梧因血脈不公隱忍三千年，佈下抽靈大陣妄圖阻攔吞噬眾生的天帝，借重塑血脈的說辭蠱惑世人。天狐族長蘇錦璃與魔尊夜無痕攜手守護人間，女兒蘇念不堪...",
       "publishedAt": "2026-07-30T19:40:08Z",
@@ -1598,6 +4386,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7240,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "bz8Cg9C2KD0",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《假裝在月亮心口撒個嬌》第1~2季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T19:34:07Z",
+      "viewCount": 110,
+      "thumbnail": "https://i.ytimg.com/vi/bz8Cg9C2KD0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bz8Cg9C2KD0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 15317
     },
     {
       "id": "ouAjUfm1wC0",
@@ -1620,6 +4419,39 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6817,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "vjCO-kyznQ8",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《予你深情侵入餘生》第4季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T19:02:06Z",
+      "viewCount": 77,
+      "thumbnail": "https://i.ytimg.com/vi/vjCO-kyznQ8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vjCO-kyznQ8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7431
+    },
+    {
+      "id": "34Cd1MnCKGo",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《完美人設撐不住，坐等親姐接手負重人生》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T18:57:23Z",
+      "viewCount": 22,
+      "thumbnail": "https://i.ytimg.com/vi/34Cd1MnCKGo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=34Cd1MnCKGo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3075
+    },
+    {
+      "id": "LFxkw45vlUc",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《錯把閃婚老公的微信當成AI網戀》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T18:57:19Z",
+      "viewCount": 77,
+      "thumbnail": "https://i.ytimg.com/vi/LFxkw45vlUc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LFxkw45vlUc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 16903
     },
     {
       "id": "SerG-VGdmUY",
@@ -1655,6 +4487,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "IVvujMC1Lhg",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《如茵別舊夢》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T17:56:20Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/IVvujMC1Lhg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=IVvujMC1Lhg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6111
+    },
+    {
       "id": "qs3NG_OeVsg",
       "title": "讓你代寫情書，你落筆驚哭大儒第二季【全集4K】漢語言文學博士顧辭，一睜眼成了大奉朝農家子。開局家徒四壁！老父、大伯縣試落榜，妹妹嗷嗷待哺，母親、姐姐辛苦織布！走投無路？顧辭拿起毛筆直奔書院門口。...",
       "publishedAt": "2026-07-30T17:52:32Z",
@@ -1677,6 +4520,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "IzvsDgSSlF4",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《都重生了，這富二代我不裝了》第5季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T17:15:52Z",
+      "viewCount": 128,
+      "thumbnail": "https://i.ytimg.com/vi/IzvsDgSSlF4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=IzvsDgSSlF4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6630
+    },
+    {
+      "id": "bVEHkXidtQY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《發配邊關，罪妻開荒養出戰神》第9季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T17:14:06Z",
+      "viewCount": 54,
+      "thumbnail": "https://i.ytimg.com/vi/bVEHkXidtQY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bVEHkXidtQY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 4871
+    },
+    {
       "id": "XS_CSCRoZRw",
       "title": "山野炊香，與君共赴青雲第二季【全集4K】宋昭奚初至鄉間季家，時常遭到親戚苛責為難，她不曾自怨自艾，憑藉一手好廚藝與精巧手工自力謀生，誠心善待婆母與家中弟妹。寒門書生季長風心思通透，看透家中紛亂處...",
       "publishedAt": "2026-07-30T17:13:01Z",
@@ -1686,6 +4551,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 3736,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "OYw-6f57sAE",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《讓你代寫情書，你落筆驚哭大儒》第2季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T17:10:24Z",
+      "viewCount": 41,
+      "thumbnail": "https://i.ytimg.com/vi/OYw-6f57sAE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OYw-6f57sAE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8710
+    },
+    {
+      "id": "eDhIOCZ7FkY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番《我！以詭異為食》第1季開播｜大陸同步更新｜獨家1080P正版國漫｜KK動漫社",
+      "publishedAt": "2026-07-30T17:08:55Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/eDhIOCZ7FkY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=eDhIOCZ7FkY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7303
     },
     {
       "id": "MsZeiFlanKc",
@@ -1699,6 +4586,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "awWCND8iJIM",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《出關即巔峰》第1~2季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T16:58:12Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/awWCND8iJIM/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=awWCND8iJIM",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 15543
+    },
+    {
+      "id": "13kknWsi4Ok",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《御獸學院》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T16:19:56Z",
+      "viewCount": 58,
+      "thumbnail": "https://i.ytimg.com/vi/13kknWsi4Ok/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=13kknWsi4Ok",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6789
+    },
+    {
       "id": "yDHZozB515M",
       "title": "蘇蘇陰樂【全集4K】宗門覺醒大典，旁人皆得清雅簫琴，蘇蕭蕭卻覺醒嗩吶，被貶雜音峰，綁定陰間樂理系統。百般樂器，嗩吶為王，不是昇天，就是拜堂。她一曲嗩吶震破顧長卿金丹瓶頸，還能憑嗩吶超度亡魂、承辦...",
       "publishedAt": "2026-07-30T16:14:27Z",
@@ -1708,6 +4617,39 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7278,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "mX8FDOZunwc",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《穿越：帶領女囚去開荒》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T15:57:08Z",
+      "viewCount": 34,
+      "thumbnail": "https://i.ytimg.com/vi/mX8FDOZunwc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mX8FDOZunwc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8009
+    },
+    {
+      "id": "h0Z4JpRE1Tw",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《老祖歸來，全族成帝》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T15:46:05Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/h0Z4JpRE1Tw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=h0Z4JpRE1Tw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10583
+    },
+    {
+      "id": "-Mu0DsawysY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《屠龍歸來：捧我成天下第一婿》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T15:42:24Z",
+      "viewCount": 3,
+      "thumbnail": "https://i.ytimg.com/vi/-Mu0DsawysY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-Mu0DsawysY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7318
     },
     {
       "id": "n_bc_ECI2wE",
@@ -1754,6 +4696,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "EzO_Po-Y0X8",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《霸業：從搶個太子妃回山寨開始》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T14:46:32Z",
+      "viewCount": 7,
+      "thumbnail": "https://i.ytimg.com/vi/EzO_Po-Y0X8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EzO_Po-Y0X8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12454
+    },
+    {
+      "id": "klwEkYU1aNg",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《天才機甲師》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T14:41:23Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/klwEkYU1aNg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=klwEkYU1aNg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7902
+    },
+    {
       "id": "HPg1VEX5Pvw",
       "title": "蝦仁穿越大唐成了太上皇【全集4K】蝦仁穿越成李淵，睜眼就是玄武門之變？系統原地自爆，只留下五十年壽命和一個熊孩子屬性面板？李淵表示，這爛攤子誰愛接誰接，老子要退休！面對滿身是血，殺氣騰騰前來逼宮...",
       "publishedAt": "2026-07-30T14:25:22Z",
@@ -1763,6 +4727,72 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7371,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "g2wKNFhJArI",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《輟學戰神》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T14:21:33Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/g2wKNFhJArI/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=g2wKNFhJArI",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8250
+    },
+    {
+      "id": "gDnfDOqeQUw",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《大唐：李世民要招我為婿》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T14:17:31Z",
+      "viewCount": 21,
+      "thumbnail": "https://i.ytimg.com/vi/gDnfDOqeQUw/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=gDnfDOqeQUw",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7407
+    },
+    {
+      "id": "qY2jbVpBd2Y",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《人人笑我傻，我笑世人痴！》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T13:58:57Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/qY2jbVpBd2Y/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qY2jbVpBd2Y",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9181
+    },
+    {
+      "id": "-Av62R1HAw4",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《苟到無敵，與天爭運！》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T13:20:28Z",
+      "viewCount": 82,
+      "thumbnail": "https://i.ytimg.com/vi/-Av62R1HAw4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-Av62R1HAw4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10150
+    },
+    {
+      "id": "K8GE0m6OTf8",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《全民纜車求生，我每升一級天賦三選一》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T13:08:16Z",
+      "viewCount": 57,
+      "thumbnail": "https://i.ytimg.com/vi/K8GE0m6OTf8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=K8GE0m6OTf8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7330
+    },
+    {
+      "id": "XCyPkNydesY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《算死仙》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T12:55:34Z",
+      "viewCount": 10,
+      "thumbnail": "https://i.ytimg.com/vi/XCyPkNydesY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XCyPkNydesY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7351
     },
     {
       "id": "uwYcnesNftM",
@@ -1776,6 +4806,39 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "SF3L8gajMsY",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《道爺不悟道，殺妖漲修為》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T12:22:43Z",
+      "viewCount": 26,
+      "thumbnail": "https://i.ytimg.com/vi/SF3L8gajMsY/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=SF3L8gajMsY",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 11141
+    },
+    {
+      "id": "oiV75z1VZ7k",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《校花難養開局全能系統成為投資天才》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T12:08:33Z",
+      "viewCount": 13,
+      "thumbnail": "https://i.ytimg.com/vi/oiV75z1VZ7k/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oiV75z1VZ7k",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9203
+    },
+    {
+      "id": "wxMSN6sqGnQ",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《木筏求生：從海盜船開始升級》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T11:58:02Z",
+      "viewCount": 3,
+      "thumbnail": "https://i.ytimg.com/vi/wxMSN6sqGnQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=wxMSN6sqGnQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10024
+    },
+    {
       "id": "wc09xF5ZNX8",
       "title": "破碗逆命第二季【全集4K】王戰本是大乾國最卑微的奴僕，父母雙亡，姐姐失蹤，自己更被養兄賣入武道世家，任人欺凌，朝不保夕。一次偶然，他從長壽河中撿到一隻殘破瓷碗，自此命運逆轉。廢丹化神丹，殘捲成神...",
       "publishedAt": "2026-07-30T11:49:17Z",
@@ -1785,6 +4848,50 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 10910,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "apUzjOsBkPA",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《讓你代寫情書，你落筆驚哭大儒》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T11:37:03Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/apUzjOsBkPA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=apUzjOsBkPA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8588
+    },
+    {
+      "id": "nHyazSQUGGg",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《正道宗門，背地裡全是魔功》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T11:00:44Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/nHyazSQUGGg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nHyazSQUGGg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10043
+    },
+    {
+      "id": "G4x0nimhMRo",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《穿成墊底皇子，反倒成為千古一帝》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T10:51:33Z",
+      "viewCount": 18,
+      "thumbnail": "https://i.ytimg.com/vi/G4x0nimhMRo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=G4x0nimhMRo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7480
+    },
+    {
+      "id": "WKViThIymbE",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《全族託舉農門狀元郎》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T10:43:51Z",
+      "viewCount": 2,
+      "thumbnail": "https://i.ytimg.com/vi/WKViThIymbE/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WKViThIymbE",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7457
     },
     {
       "id": "YUIkEPogKBY",
@@ -1798,6 +4905,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "75FuYPHaF_o",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《我以童言號令八王》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T09:52:29Z",
+      "viewCount": 8,
+      "thumbnail": "https://i.ytimg.com/vi/75FuYPHaF_o/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=75FuYPHaF_o",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7554
+    },
+    {
+      "id": "2wstb-ACZC4",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《太玄胎珠傳》第4季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T09:31:57Z",
+      "viewCount": 57,
+      "thumbnail": "https://i.ytimg.com/vi/2wstb-ACZC4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2wstb-ACZC4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7284
+    },
+    {
       "id": "XuV11V_tXVI",
       "title": "全班修仙歸來，你們元嬰我大乘第二季【全集4K】全班群穿修仙界五百年，集體帶著修為重返藍星！校花半步化神，班長元嬰大能，全班金丹滿地走，御劍飛行，言出法隨，狂傲不可一世！唯獨殺穿天魔淵十九層萬魔叩...",
       "publishedAt": "2026-07-30T09:14:27Z",
@@ -1809,6 +4938,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "6RqvQcu0fBQ",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《掌櫃美食》第4季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T08:52:31Z",
+      "viewCount": 33,
+      "thumbnail": "https://i.ytimg.com/vi/6RqvQcu0fBQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6RqvQcu0fBQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7822
+    },
+    {
+      "id": "Aj1eHATyWV4",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《問劍奇緣之別逼我修煉凡間篇》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T08:38:50Z",
+      "viewCount": 11,
+      "thumbnail": "https://i.ytimg.com/vi/Aj1eHATyWV4/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Aj1eHATyWV4",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 14180
+    },
+    {
       "id": "-K-QgrKNbHQ",
       "title": "玄門大佬回京：一卦算哭滿朝文武4【全集4K】玄清門傳人蕭安樂為尋回缺失魂魄並解除驅魂釘禁制，通過捉鬼驅邪、破解權貴陰謀不斷積累功德，在燁親王謝司明的護持下，與殘害徒弟並煉製鬼煞的宿敵崇明及龍雲山...",
       "publishedAt": "2026-07-30T08:28:50Z",
@@ -1818,6 +4969,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 10958,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "FFGeV-Tkjmc",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《擺攤的我是絕世高手》第1季 | #最新漫劇 #漫劇合集 #一口氣看完 #anime #KK動漫社",
+      "publishedAt": "2026-07-30T07:55:35Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/FFGeV-Tkjmc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FFGeV-Tkjmc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 10582
     },
     {
       "id": "Fd-ExvU_3LM",
@@ -1842,6 +5004,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "XUs_g5dlO84",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《咱家劍宗團寵小師妹》第2季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-30T06:56:46Z",
+      "viewCount": 47,
+      "thumbnail": "https://i.ytimg.com/vi/XUs_g5dlO84/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XUs_g5dlO84",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 35345
+    },
+    {
       "id": "mlapyWHCtnk",
       "title": "什麼召喚系，我不是在請神嗎？2【全集4K】底層少年江流身負六道召喚系統，生在階級森嚴的浮空高塔，母親早年遭高層陷害流放。他靠高考踏入頂尖二十層學府，手握陰陽玉佩、破傷風兇劍，能獻祭寶物召喚哪吒、...",
       "publishedAt": "2026-07-30T06:41:48Z",
@@ -1864,6 +5037,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "bs1qHIwltoc",
+      "channelHandle": "kkanimeclub",
+      "title": "📢新番上線[全網獨家1080P]《咱家劍宗團寵小師妹》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-30T05:34:03Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/bs1qHIwltoc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bs1qHIwltoc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 16427
+    },
+    {
       "id": "OI-UpOyMFP0",
       "title": "青雲藏海第二季【全集4K】寧塵在大夏劍宗，揹負玄鐵鎮尺，與劍靈玄璃相伴修行。他劍池悟無聲殺劍，夜闖柳府血池救人，力敵血骨門邪修與六界天閣暗手。外門大比之上，鎮尺硬撼凌雲劍訣，登頂外門第一，卻牽出...",
       "publishedAt": "2026-07-30T02:58:09Z",
@@ -1884,6 +5068,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6737,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "y-ih6F2qGMc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《歸墟》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T20:18:35Z",
+      "viewCount": 9574,
+      "thumbnail": "https://i.ytimg.com/vi/y-ih6F2qGMc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=y-ih6F2qGMc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5447
     },
     {
       "id": "_lOiei3ZlBk",
@@ -1996,6 +5191,28 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "vjTxB3_dCAo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《未婚妻想要奪我血脈，我反手亮出帝族背景》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T13:11:31Z",
+      "viewCount": 9,
+      "thumbnail": "https://i.ytimg.com/vi/vjTxB3_dCAo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=vjTxB3_dCAo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7326
+    },
+    {
+      "id": "50KTxAJJaWA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《我變壞了，也無敵了》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T13:09:20Z",
+      "viewCount": 30,
+      "thumbnail": "https://i.ytimg.com/vi/50KTxAJJaWA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=50KTxAJJaWA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 12369
+    },
+    {
       "id": "rAuY65URJKo",
       "title": "普普通通小師叔第一季【全集4K】身為青光門小師叔，穿越者林肖因武道天賦平庸，被宗門徹底放棄，發配後山守墓。本想就此躺平，他卻意外撿到一枚造化玉石，內含讓修煉速度提升萬倍的神秘空間！短短數日，林肖...",
       "publishedAt": "2026-07-29T12:57:16Z",
@@ -2018,6 +5235,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "msd-hVL8W24",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《分手後男頻女頻大亂鬥》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T12:45:44Z",
+      "viewCount": 35,
+      "thumbnail": "https://i.ytimg.com/vi/msd-hVL8W24/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=msd-hVL8W24",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7654
+    },
+    {
       "id": "6BiSDdZsmFI",
       "title": "開局大帝：我的弟子全是逆天體質第五季【全集4K】萬法宗六位天資卓絕的少年弟子結伴外出歷練，途經穿山城時，查清蘇清全村被幽魂教屠戮的陳年慘案，一舉剷除魔教、淨化地底魔骨。返程途中恰逢妖族大舉圍攻滄...",
       "publishedAt": "2026-07-29T12:37:41Z",
@@ -2027,6 +5255,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6622,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "C8JOjIcEnhU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《狐耳飽飽：兩界少主》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T12:35:15Z",
+      "viewCount": 328,
+      "thumbnail": "https://i.ytimg.com/vi/C8JOjIcEnhU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=C8JOjIcEnhU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 2734
+    },
+    {
+      "id": "uC4DEiZ7C4M",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《萬族之主（第一季）》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-29T12:32:56Z",
+      "viewCount": 29,
+      "thumbnail": "https://i.ytimg.com/vi/uC4DEiZ7C4M/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=uC4DEiZ7C4M",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 8694
     },
     {
       "id": "Ir3rzm0_oPw",
@@ -2425,6 +5675,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "pKgiGLL2Cqs",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《狀元是買的，但才華是真的》第1季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T18:52:46Z",
+      "viewCount": 14,
+      "thumbnail": "https://i.ytimg.com/vi/pKgiGLL2Cqs/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pKgiGLL2Cqs",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7270
+    },
+    {
       "id": "OadiYlll0Iw",
       "title": "天災我囤盡天下糧倉救了全侯府第二季【全集4K】褚塵音雷擊穿越大庸，新婚預知傅家滿門將斬，隨後天火旱蝗，王朝覆滅在即。她覺醒隨身商超，逆逃難洪流囤積油米炭鹽。蝗災傾瀉、流民禁入，她以糧為刀，將侯府...",
       "publishedAt": "2026-07-28T18:38:36Z",
@@ -2467,6 +5728,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 6615,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "p4Wsb6YwQkU",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《聚寶仙盆之雜靈根才是真BOSS》第3季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T14:37:08Z",
+      "viewCount": 1986,
+      "thumbnail": "https://i.ytimg.com/vi/p4Wsb6YwQkU/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=p4Wsb6YwQkU",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 9897
+    },
+    {
+      "id": "uR2U4MNbyWg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《聚寶仙盆之雜靈根才是真BOSS》第4~6季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T13:51:21Z",
+      "viewCount": 389,
+      "thumbnail": "https://i.ytimg.com/vi/uR2U4MNbyWg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=uR2U4MNbyWg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 38709
     },
     {
       "id": "6_OaUQGmsv8",
@@ -2612,6 +5895,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "0stnfjGGLR8",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《帥府福崽，卯卯駕到》第2季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T10:16:02Z",
+      "viewCount": 79,
+      "thumbnail": "https://i.ytimg.com/vi/0stnfjGGLR8/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0stnfjGGLR8",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 5605
+    },
+    {
       "id": "8q3uuxrm_i8",
       "title": "農女帶著家人致富第八季【全集4K】現代商界女強人林雨荷遭人陷害，魂穿成古代農家被退婚的跳河女。原主家境貧寒卻被家人真心疼愛。林雨荷被質樸親情溫暖，放下前世心結，憑藉現代智慧與手藝，和家人攜手做起...",
       "publishedAt": "2026-07-28T09:29:10Z",
@@ -2621,6 +5915,17 @@
       "lastStatsFetchedAt": "2026-08-07T00:19:41.411Z",
       "durationSeconds": 7577,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "8vqHgYaMfSc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《開局大帝：我的弟子全是逆天體質》第5季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T09:21:22Z",
+      "viewCount": 1311,
+      "thumbnail": "https://i.ytimg.com/vi/8vqHgYaMfSc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8vqHgYaMfSc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6622
     },
     {
       "id": "Uq3T-rUa7QQ",
@@ -2821,6 +6126,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "18uyJwHnRew",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《聚寶仙盆之雜靈根才是真BOSS》第7季完整版 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-28T01:53:47Z",
+      "viewCount": 5758,
+      "thumbnail": "https://i.ytimg.com/vi/18uyJwHnRew/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=18uyJwHnRew",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 14178
+    },
+    {
       "id": "Bfmpk3p6a6g",
       "title": "梔梔復梔梔！太子爺非她不可【全集4K】落魄千金江晚梔為救家族被迫聯姻，卻在一場雨夜車禍中撞上三年前不告而別的前任西門禮臣。面對千萬賠償、渣男算計和事業撤資，她本想與過去徹底切割，他卻強勢迴歸，為...",
       "publishedAt": "2026-07-28T01:33:13Z",
@@ -2909,6 +6225,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "ZkwS6-Ipqyc",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《聚寶仙盆之雜靈根才是真BOSS》第7季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T17:01:03Z",
+      "viewCount": 523,
+      "thumbnail": "https://i.ytimg.com/vi/ZkwS6-Ipqyc/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZkwS6-Ipqyc",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 6245
+    },
+    {
       "id": "9aseitW_k9I",
       "title": "萬界無敵宗【全集4K】姜晨穿越玄幻世界，接手一個光禿禿的宗門。就在他陷入沉思之時，覺醒了諸天萬界無敵宗門系統。至此，姜晨和宗門走上了無敵之路。召喚億萬強者，培養無數弟子。從凡界殺到仙界，從仙界砍...",
       "publishedAt": "2026-07-27T16:58:24Z",
@@ -2920,6 +6247,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "FztXccd3gug",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《我竟是道祖之狩獵氣運之子》第2季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T16:42:53Z",
+      "viewCount": 19,
+      "thumbnail": "https://i.ytimg.com/vi/FztXccd3gug/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FztXccd3gug",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7693
+    },
+    {
       "id": "j-jPPqmtppE",
       "title": "土木堡之變第二季【全集4K】土木堡一戰，大明二十萬精銳覆滅，皇帝朱祁鎮被瓦剌俘走。天子蒙塵，京師震盪，朝廷陷入前所未有的危局。危急關頭，於謙挺身而出，力挽狂瀾，拒絕南遷，以社稷存亡為重，輔佐郕王...",
       "publishedAt": "2026-07-27T16:34:39Z",
@@ -2929,6 +6267,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 3343,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "1hv_pkY9BHo",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《五靈根修仙：我有一個吞噬空間！》第4季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T16:29:11Z",
+      "viewCount": 21,
+      "thumbnail": "https://i.ytimg.com/vi/1hv_pkY9BHo/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1hv_pkY9BHo",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7441
     },
     {
       "id": "XZtudbv2N3A",
@@ -3129,6 +6478,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "Z4tTiurQDis",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《血量億倍增幅，被當成廢物異能》第1~3季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T08:39:30Z",
+      "viewCount": 47,
+      "thumbnail": "https://i.ytimg.com/vi/Z4tTiurQDis/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Z4tTiurQDis",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 21485
+    },
+    {
       "id": "Bcr-sS3E1rY",
       "title": "魔法世界修羅場第一季【全集4K】辛西婭一覺醒來穿成魔法校園文裡最廢柴的公女，序列622，未婚夫是帝國皇太子，開場就當眾退婚。別人笑她是個廢物，她反手就是一串中指加問候。五個墊底連號湊成廢物小隊，...",
       "publishedAt": "2026-07-27T08:36:53Z",
@@ -3160,6 +6520,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 7432,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "DiKpGIcWhmA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《蘇憶穿書》第1~3季 全網首發 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T07:58:07Z",
+      "viewCount": 15,
+      "thumbnail": "https://i.ytimg.com/vi/DiKpGIcWhmA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DiKpGIcWhmA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 20231
     },
     {
       "id": "6I_SKVO3Mfk",
@@ -3248,6 +6619,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 3664,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "rNx7zya40lQ",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《全員惡仙：我有一座種仙觀》第1~3季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T05:29:45Z",
+      "viewCount": 6,
+      "thumbnail": "https://i.ytimg.com/vi/rNx7zya40lQ/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=rNx7zya40lQ",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 28136
     },
     {
       "id": "3P8xrMo-Glw",
@@ -3369,6 +6751,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 8991,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "cB1flUdH-dg",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《誰說沒靈根不能修仙的？之無靈證道》第9季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-27T01:54:16Z",
+      "viewCount": 5,
+      "thumbnail": "https://i.ytimg.com/vi/cB1flUdH-dg/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cB1flUdH-dg",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 7210
     },
     {
       "id": "P8wXItmp2-s",
@@ -3679,6 +7072,17 @@
       "channelHandle": "aiStory008_01"
     },
     {
+      "id": "B769apdjVQ0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《燭九陰》第1~2季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-26T17:48:57Z",
+      "viewCount": 39,
+      "thumbnail": "https://i.ytimg.com/vi/B769apdjVQ0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=B769apdjVQ0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 15363
+    },
+    {
       "id": "fMG5w6s0FCs",
       "title": "穿成宗門傻師妹，我靠吃瓜逆襲【全集4K】宋九兒意外穿成修仙界仙玉峰有名的憨傻小師妹，剛睜眼就遇上失足落進汙池的尷尬名場面，還發現原身竟是遭人設計遇險。為安穩立足她只能繼續裝憨，察覺平日笑盈盈的三...",
       "publishedAt": "2026-07-26T17:41:42Z",
@@ -3688,6 +7092,17 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 9220,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "Xr2x8eb6z4c",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《凡人百世書》第1~4季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-26T16:58:23Z",
+      "viewCount": 46,
+      "thumbnail": "https://i.ytimg.com/vi/Xr2x8eb6z4c/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Xr2x8eb6z4c",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 36913
     },
     {
       "id": "9syQPbg0UAk",
@@ -3710,6 +7125,28 @@
       "lastStatsFetchedAt": "2026-08-02T00:28:36.981Z",
       "durationSeconds": 9373,
       "channelHandle": "aiStory008_01"
+    },
+    {
+      "id": "ROsahoKPof0",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《護鏢人之無敵鏢人，開局護送滅世帝女》第5季#最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-26T15:26:32Z",
+      "viewCount": 20,
+      "thumbnail": "https://i.ytimg.com/vi/ROsahoKPof0/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ROsahoKPof0",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 3588
+    },
+    {
+      "id": "GzuZ6aOtJVA",
+      "channelHandle": "kkanimeclub",
+      "title": "MULTISUB📢新番上線《五靈根修仙：我有一個吞噬空間》第1~3季 #最新漫劇 #漫劇合集 #一口氣看完 #動漫 #anime #AI漫劇 #KK動漫社",
+      "publishedAt": "2026-07-26T15:26:26Z",
+      "viewCount": 38,
+      "thumbnail": "https://i.ytimg.com/vi/GzuZ6aOtJVA/mqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GzuZ6aOtJVA",
+      "lastStatsFetchedAt": "2026-08-07T11:21:24.052Z",
+      "durationSeconds": 22238
     },
     {
       "id": "AsUV1FXIVbo",
@@ -122246,17 +125683,6 @@
       "url": "https://www.youtube.com/watch?v=1PXUP3GGELU",
       "lastStatsFetchedAt": "2026-08-02T00:33:35.088Z",
       "durationSeconds": 50875
-    },
-    {
-      "id": "-wvFSZjPVfE",
-      "channelHandle": "DawnAnimeClub",
-      "title": "【📢一口氣看完】楚行雲遇襲後重返少年時代，意外成為當年那個廢物少主。前一世，他遭惡人陷害，今生，他絕不會放過對方！ 待到靈劍長嘯之時，天地三界，我為至尊！ 《靈劍尊》完整版#破曉動漫社",
-      "publishedAt": "2025-08-06T02:24:20Z",
-      "viewCount": 627,
-      "thumbnail": "https://i.ytimg.com/vi/-wvFSZjPVfE/mqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-wvFSZjPVfE",
-      "lastStatsFetchedAt": "2026-08-02T00:33:35.088Z",
-      "durationSeconds": 6154
     }
   ]
 }
