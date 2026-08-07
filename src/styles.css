@@ -40,6 +40,10 @@ main { width: min(1180px, calc(100% - 64px)); margin: auto; }
 .periods button { min-width: 68px; padding: 10px 16px; border: 1px solid transparent; border-radius: 100px; background: transparent; cursor: pointer; font-size: 14px; font-weight: 600; }
 .periods button:hover { border-color: var(--line); }
 .periods button[aria-selected='true'] { color: white; background: var(--ink); }
+.channel-filter { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 430px; }
+.channel-filter button { padding: 8px 12px; border: 1px solid var(--line); border-radius: 100px; background: transparent; cursor: pointer; color: #5d5a54; font-size: 12px; font-weight: 700; }
+.channel-filter button:hover { color: white; border-color: var(--blue); background: var(--blue); }
+.channel-filter button[aria-selected='true'] { color: white; border-color: var(--blue); background: var(--blue); }
 .search { width: min(320px, 35vw); display: flex; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--ink); }
 .search input { width: 100%; border: 0; outline: 0; background: transparent; }
 .search button { border: 0; background: transparent; cursor: pointer; color: #77736b; font-size: 12px; white-space: nowrap; }
@@ -124,6 +128,8 @@ footer { display: flex; justify-content: space-between; padding: 28px 0 38px; bo
   .controls { align-items: stretch; flex-direction: column; padding: 22px 0; }
   .periods { width: 100%; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 2px; overflow: visible; padding-bottom: 3px; }
   .periods button { min-width: 0; padding: 9px 4px; }
+  .channel-filter { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: none; }
+  .channel-filter button { padding: 10px 8px; }
   .search { width: 100%; }
   .ranking { padding-top: 42px; }
   .video-row { grid-template-columns: 42px 112px 1fr; gap: 12px; padding: 16px 0; }

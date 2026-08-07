@@ -131,6 +131,7 @@ function formatDuration(value) {
 function App() {
   const [payload, setPayload] = useState({ updatedAt: null, videos: [] });
   const [period, setPeriod] = useState('day');
+  const [selectedChannel, setSelectedChannel] = useState('all');
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -253,20 +254,22 @@ function App() {
   };
 
   const activePeriod = periods.find((item) => item.id === period);
+  const activeChannel = channels.find((channel) => channel.handle === selectedChannel);
   const videos = useMemo(() => {
     const cutoff = activePeriod.days ? Date.now() - activePeriod.days * 86400000 : null;
     const keyword = deferredQuery.trim().toLocaleLowerCase('zh-Hant');
     return rankedVideos
       .filter((video) => !cutoff || video.publishedTime >= cutoff)
+      .filter((video) => selectedChannel === 'all' || video.channelHandle === selectedChannel)
       .filter((video) => !keyword || video.searchTitle.includes(keyword) || video.searchChannel.includes(keyword));
-  }, [rankedVideos, activePeriod.days, deferredQuery]);
+  }, [rankedVideos, activePeriod.days, selectedChannel, deferredQuery]);
   const visibleVideos = useMemo(() => videos.slice(0, visibleCount), [videos, visibleCount]);
   const homepageTags = useMemo(() => new Map(
     visibleVideos.map((video) => [video.id, semanticTags(video, relatedIndex)]),
   ), [visibleVideos, relatedIndex]);
   const filterPending = isPeriodPending || query !== deferredQuery;
 
-  useEffect(() => setVisibleCount(PAGE_SIZE), [period, deferredQuery]);
+  useEffect(() => setVisibleCount(PAGE_SIZE), [period, selectedChannel, deferredQuery]);
 
   useEffect(() => {
     const target = loadMoreRef.current;
@@ -318,6 +321,16 @@ function App() {
             </button>
           ))}
         </div>
+        <div className="channel-filter" role="tablist" aria-label="頻道篩選">
+          <button type="button" role="tab" aria-selected={selectedChannel === 'all'} onClick={() => setSelectedChannel('all')}>
+            全部頻道
+          </button>
+          {channels.map((channel) => (
+            <button key={channel.handle} type="button" role="tab" aria-selected={selectedChannel === channel.handle} onClick={() => setSelectedChannel(channel.handle)}>
+              {channel.name}
+            </button>
+          ))}
+        </div>
         <label className="search">
           <Search size={19} />
           <span className="sr-only">搜尋影片或頻道名稱</span>
@@ -328,7 +341,7 @@ function App() {
 
       <section className="ranking">
         <div className="section-heading">
-          <div><span>RANKING</span><h2>{activePeriod.label}熱門影片</h2></div>
+          <div><span>RANKING</span><h2>{activeChannel ? `${activeChannel.name}・${activePeriod.label}熱門影片` : `${activePeriod.label}熱門影片`}</h2></div>
           <p>共 {videos.length} 部作品</p>
         </div>
         {filterPending && <div className="filter-progress" role="status"><span />正在整理排行…</div>}
