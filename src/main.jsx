@@ -14,6 +14,7 @@ const periods = [
 const channels = [
   { handle: 'DawnAnimeClub', name: '破曉動漫社', url: 'https://www.youtube.com/@DawnAnimeClub' },
   { handle: 'aiStory008_01', name: '小七動漫社', url: 'https://www.youtube.com/@aiStory008_01' },
+  { handle: 'kkanimeclub', name: 'KK動漫社 Anime Club', url: 'https://www.youtube.com/@kkanimeclub' },
 ];
 const channelNames = new Map(channels.map((channel) => [channel.handle, channel.name]));
 const PAGE_SIZE = 30;
@@ -172,6 +173,7 @@ function App() {
         channelName: channelNames.get(video.channelHandle) ?? '',
         publishedTime: new Date(video.publishedAt).getTime(),
         searchTitle: localizedTitle.toLocaleLowerCase('zh-Hant'),
+        searchChannel: `${channelNames.get(video.channelHandle) ?? ''} ${video.channelHandle ?? ''}`.toLocaleLowerCase('zh-Hant'),
       };
     })
     .sort((a, b) => b.viewCount - a.viewCount), [payload.videos]);
@@ -256,7 +258,7 @@ function App() {
     const keyword = deferredQuery.trim().toLocaleLowerCase('zh-Hant');
     return rankedVideos
       .filter((video) => !cutoff || video.publishedTime >= cutoff)
-      .filter((video) => !keyword || video.searchTitle.includes(keyword));
+      .filter((video) => !keyword || video.searchTitle.includes(keyword) || video.searchChannel.includes(keyword));
   }, [rankedVideos, activePeriod.days, deferredQuery]);
   const visibleVideos = useMemo(() => videos.slice(0, visibleCount), [videos, visibleCount]);
   const homepageTags = useMemo(() => new Map(
@@ -283,7 +285,7 @@ function App() {
       <header className="masthead">
         <div className="brand">
           <span className="brand-mark"><span>熱</span></span>
-          <span><strong>熱門中國動漫</strong><small>DUAL CHANNEL RANKING</small></span>
+          <span><strong>熱門中國動漫</strong><small>MULTI CHANNEL RANKING</small></span>
         </div>
         <div className="header-actions">
           <a
@@ -318,8 +320,8 @@ function App() {
         </div>
         <label className="search">
           <Search size={19} />
-          <span className="sr-only">搜尋影片名稱</span>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜尋影片名稱" />
+          <span className="sr-only">搜尋影片或頻道名稱</span>
+          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜尋影片或頻道名稱" />
           {query && <button onClick={() => setQuery('')} aria-label="清除搜尋">清除</button>}
         </label>
       </section>
