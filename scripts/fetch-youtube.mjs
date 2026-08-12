@@ -7,6 +7,7 @@ const CHANNELS = [
   { handle: 'DawnAnimeClub', name: '破曉動漫社' },
   { handle: 'aiStory008_01', name: '小七動漫社' },
   { handle: 'kkanimeclub', name: 'KK動漫社 Anime Club' },
+  { handle: 'shengshidrama', name: '盛世短劇' },
 ];
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
