@@ -16,6 +16,7 @@ const channels = [
   { handle: 'aiStory008_01', name: '小七動漫社', url: 'https://www.youtube.com/@aiStory008_01' },
   { handle: 'kkanimeclub', name: 'KK動漫社 Anime Club', url: 'https://www.youtube.com/@kkanimeclub' },
   { handle: 'shengshidrama', name: '盛世短劇', url: 'https://www.youtube.com/@shengshidrama' },
+  { handle: 'UCt42cIL0kxzKTrJE9k1A0QA', name: '天天看動漫', url: 'https://www.youtube.com/channel/UCt42cIL0kxzKTrJE9k1A0QA' },
 ];
 const channelNames = new Map(channels.map((channel) => [channel.handle, channel.name]));
 const PAGE_SIZE = 30;

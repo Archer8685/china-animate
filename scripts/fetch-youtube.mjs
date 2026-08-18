@@ -8,6 +8,7 @@ const CHANNELS = [
   { handle: 'aiStory008_01', name: '小七動漫社' },
   { handle: 'kkanimeclub', name: 'KK動漫社 Anime Club' },
   { handle: 'shengshidrama', name: '盛世短劇' },
+  { handle: 'UCt42cIL0kxzKTrJE9k1A0QA', name: '天天看動漫', channelId: 'UCt42cIL0kxzKTrJE9k1A0QA' },
 ];
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
@@ -35,9 +36,12 @@ async function loadCache() {
   }
 }
 
-async function getUploadsPlaylistId(handle) {
-  const data = await youtube('channels', { part: 'contentDetails', forHandle: handle });
-  if (!data.items?.length) throw new Error(`找不到頻道 @${handle}`);
+async function getUploadsPlaylistId(channel) {
+  const params = channel.channelId
+    ? { part: 'contentDetails', id: channel.channelId }
+    : { part: 'contentDetails', forHandle: channel.handle };
+  const data = await youtube('channels', params);
+  if (!data.items?.length) throw new Error(`找不到頻道 ${channel.channelId ? channel.channelId : '@' + channel.handle}`);
   return data.items[0].contentDetails.relatedPlaylists.uploads;
 }
 
@@ -127,7 +131,7 @@ for (const channel of CHANNELS) {
   const cachedIds = new Set(migratedVideos
     .filter((video) => video.channelHandle === channel.handle)
     .map((video) => video.id));
-  const playlistId = uploadsPlaylistIds[channel.handle] ?? await getUploadsPlaylistId(channel.handle);
+  const playlistId = uploadsPlaylistIds[channel.handle] ?? await getUploadsPlaylistId(channel);
   uploadsPlaylistIds[channel.handle] = playlistId;
   const newUploads = await getNewUploads(playlistId, cachedIds);
   newVideos.push(...newUploads.map((item) => toVideo(item, channel.handle)));
