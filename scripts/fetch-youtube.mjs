@@ -10,6 +10,7 @@ const CHANNELS = [
   { handle: 'shengshidrama', name: '盛世短劇' },
   { handle: 'UCt42cIL0kxzKTrJE9k1A0QA', name: '天天看動漫', channelId: 'UCt42cIL0kxzKTrJE9k1A0QA' },
   { handle: 'UCCYQt74pW9UEu-XIRFOYkxA', name: '月月動漫社', channelId: 'UCCYQt74pW9UEu-XIRFOYkxA' },
+  { handle: 'UCweEYaRhmUOaqOUs2i9Ap3Q', name: '月小漫', channelId: 'UCweEYaRhmUOaqOUs2i9Ap3Q' },
 ];
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;

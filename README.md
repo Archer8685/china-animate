@@ -1,6 +1,6 @@
 # 熱門中國動漫熱門影片排行
 
-響應式 [破曉動漫社](https://www.youtube.com/@DawnAnimeClub)、[小七動漫社](https://www.youtube.com/@aiStory008_01)、[KK動漫社 Anime Club](https://www.youtube.com/@kkanimeclub)、[盛世短劇](https://www.youtube.com/@shengshidrama) 與 [天天看動漫](https://www.youtube.com/channel/UCt42cIL0kxzKTrJE9k1A0QA)、[月月動漫社](https://www.youtube.com/channel/UCCYQt74pW9UEu-XIRFOYkxA) YouTube 合併熱門影片排行，支援每日、每週、每月、每季、每年、頻道篩選，以及影片名稱或頻道名稱搜尋。排行規則為「期間內上架的影片，依目前觀看數排序」。每個頻道各自保留播放清單與影片快取，只補抓新增內容。
+響應式 [破曉動漫社](https://www.youtube.com/@DawnAnimeClub)、[小七動漫社](https://www.youtube.com/@aiStory008_01)、[KK動漫社 Anime Club](https://www.youtube.com/@kkanimeclub)、[盛世短劇](https://www.youtube.com/@shengshidrama) 與 [天天看動漫](https://www.youtube.com/channel/UCt42cIL0kxzKTrJE9k1A0QA)、[月月動漫社](https://www.youtube.com/channel/UCCYQt74pW9UEu-XIRFOYkxA)、[月小漫](https://www.youtube.com/channel/UCweEYaRhmUOaqOUs2i9Ap3Q) YouTube 合併熱門影片排行，支援每日、每週、每月、每季、每年、頻道篩選，以及影片名稱或頻道名稱搜尋。排行規則為「期間內上架的影片，依目前觀看數排序」。每個頻道各自保留播放清單與影片快取，只補抓新增內容。
 
 影片列表每批顯示 30 部；點選影片標題可切換「同系列」與「相關」推薦。同系列依作品名精準配對並排除季數、集數及合集範圍；相關推薦則依角色、題材與主題詞尋找其他作品。推薦結果可直接觀看，也可繼續作為下一輪探索起點。
 
