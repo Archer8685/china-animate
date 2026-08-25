@@ -10,7 +10,6 @@ const CHANNELS = [
   { handle: 'shengshidrama', name: '盛世短劇' },
   { handle: 'UCt42cIL0kxzKTrJE9k1A0QA', name: '天天看動漫', channelId: 'UCt42cIL0kxzKTrJE9k1A0QA' },
   { handle: 'UCCYQt74pW9UEu-XIRFOYkxA', name: '月月動漫社', channelId: 'UCCYQt74pW9UEu-XIRFOYkxA' },
-  { handle: 'UCweEYaRhmUOaqOUs2i9Ap3Q', name: '月小漫', channelId: 'UCweEYaRhmUOaqOUs2i9Ap3Q' },
 ];
 const OUTPUT = new URL('../public/data/videos.json', import.meta.url);
 const DAY = 86400000;
@@ -129,14 +128,24 @@ const migratedVideos = (cache.videos ?? []).map((video) => ({
 const uploadsPlaylistIds = { ...(cache.uploadsPlaylistIds ?? {}) };
 if (legacyHandle && cache.uploadsPlaylistId) uploadsPlaylistIds[legacyHandle] ??= cache.uploadsPlaylistId;
 const newVideos = [];
+const failedChannels = [];
 for (const channel of CHANNELS) {
   const cachedIds = new Set(migratedVideos
     .filter((video) => video.channelHandle === channel.handle)
     .map((video) => video.id));
-  const playlistId = uploadsPlaylistIds[channel.handle] ?? await getUploadsPlaylistId(channel);
-  uploadsPlaylistIds[channel.handle] = playlistId;
-  const newUploads = await getNewUploads(playlistId, cachedIds);
-  newVideos.push(...newUploads.map((item) => toVideo(item, channel.handle)));
+  try {
+    const playlistId = uploadsPlaylistIds[channel.handle] ?? await getUploadsPlaylistId(channel);
+    const newUploads = await getNewUploads(playlistId, cachedIds);
+    uploadsPlaylistIds[channel.handle] = playlistId;
+    newVideos.push(...newUploads.map((item) => toVideo(item, channel.handle)));
+  } catch (error) {
+    failedChannels.push(channel.name);
+    console.error(`⚠️  頻道「${channel.name}」抓取失敗，沿用既有快取：${error.message}`);
+  }
+}
+if (failedChannels.length === CHANNELS.length) {
+  console.error('所有頻道都抓取失敗，中止以免覆寫快取');
+  process.exit(1);
 }
 const newIds = new Set(newVideos.map((video) => video.id));
 const cutoff = Date.now() - 366 * DAY;

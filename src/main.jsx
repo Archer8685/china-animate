@@ -18,7 +18,6 @@ const channels = [
   { handle: 'shengshidrama', name: '盛世短劇', url: 'https://www.youtube.com/@shengshidrama' },
   { handle: 'UCt42cIL0kxzKTrJE9k1A0QA', name: '天天看動漫', url: 'https://www.youtube.com/channel/UCt42cIL0kxzKTrJE9k1A0QA' },
   { handle: 'UCCYQt74pW9UEu-XIRFOYkxA', name: '月月動漫社', url: 'https://www.youtube.com/channel/UCCYQt74pW9UEu-XIRFOYkxA' },
-  { handle: 'UCweEYaRhmUOaqOUs2i9Ap3Q', name: '月小漫', url: 'https://www.youtube.com/channel/UCweEYaRhmUOaqOUs2i9Ap3Q' },
 ];
 const channelNames = new Map(channels.map((channel) => [channel.handle, channel.name]));
 const PAGE_SIZE = 30;
